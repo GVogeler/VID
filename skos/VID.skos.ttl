@@ -1,7 +1,8 @@
-	@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-	@prefix vid: <http://www.cei.lmu.de/VID/#> .
-	@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-	@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+	<pre>
+	@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+	@prefix vid: &lt;http://www.cei.lmu.de/VID/#&gt; .
+	@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
+	@prefix dc: &lt;http://purl.org/dc/elements/1.1/#&gt; .
 	
 	vid:VID_TOC_1 rdf:type skos:Concept; 
  skos:prefLabel "Notions génerales"@fr; 
@@ -779,7 +780,7 @@ vid:VID_1 rdf:type skos:Concept;
   skos:altLabel "Diplomática"@it; 
    skos:definition
 	"La Diplomatique
-est la science qui étudie la *tradition, la *forme et l'*élaboration des *actes écrits. Son objet est d'en faire la critique, de juger de leur *sincérité, d'apprécier la qualité de leur texte, de dégager des formules tous les éléments du contenu susceptibles d'être utilisés par l'historien, de les dater, enfin de les éditer."@fr;
+est la science qui étudie la *tradition, la *forme et l'*élaboration des *actes&nbsp;écrits. Son objet est d'en faire la critique, de juger de leur *sincérité, d'apprécier la qualité de leur texte, de dégager des formules tous les éléments du contenu susceptibles d'être utilisés par l'historien, de les dater, enfin de les éditer."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_108;
    skos:related vid:VID_3;
@@ -796,7 +797,7 @@ vid:VID_2 rdf:type skos:Concept;
   skos:altLabel "fonti diplomatiche"@it; 
    skos:definition
 	"Les sources diplomatiques 
-sont formées: d'une part, des *actes écrits; de l'autre, des *documents résultant des actions juridiques et des activités administratives et financiéres de toute personne physique ou morale; enfin des lettres expédiées ex-officio et dont la forme est soumise à certaines règles. Constituées essentiellement de *documents d'archives, les sources diplomatiques s'opposent, d'une part, aux textes littéraires et aux sources historiographiques, de l'autre, aux documents non écrits (sources iconographiques, documents archéologiques et objets matériels)."@fr;
+sont formées: d'une part, des *actes&nbsp;écrits; de l'autre, des *documents résultant des actions juridiques et des activités administratives et financiéres de toute personne physique ou morale; enfin des lettres expédiées ex-officio et dont la forme est soumise à certaines règles. Constituées essentiellement de *documents&nbsp;d'archives, les sources diplomatiques s'opposent, d'une part, aux textes littéraires et aux sources historiographiques, de l'autre, aux documents non écrits (sources iconographiques, documents archéologiques et objets matériels)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_29;
    skos:related vid:VID_3;
@@ -814,7 +815,7 @@ vid:VID_3 rdf:type skos:Concept;
   skos:altLabel "instrumentum"@la; 
    skos:definition
 	"Un acte écrit 
-(lat.: scriptum, scriptura, instrumentum) est un écrit où se trouve consigné, soit l'accomplissement d'un *acte juridique, soit l'existence d'un *fait juridique, soit encore éventuellement un fait quelconque dès lors que l'écrit est rédigé dans une certaine forme propre à lui donner validité."@fr;
+(lat.: scriptum, scriptura, instrumentum) est un écrit où se trouve consigné, soit l'accomplissement d'un *acte&nbsp;juridique, soit l'existence d'un *fait&nbsp;juridique, soit encore éventuellement un fait quelconque dès lors que l'écrit est rédigé dans une certaine forme propre à lui donner validité."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_7b;
    skos:narrower vid:VID_8b;
@@ -834,7 +835,7 @@ vid:VID_4 rdf:type skos:Concept;
   skos:altLabel "negotium"@la; 
    skos:definition
 	"Un acte juridique 
-(lat.: negotium) est une déclaration de volonté par laquelle une ou plusieurs personnes, phyisques ou morales, entendent produire en effet de droit. C'est donc un acte colontaire destiné à susciter, sonfirmer, modifier ou éteindre des droits et des obligations et à engendrer un recours en justice au cas aù le droit serait méconnu. Un acte juridique peut être parfait sans le recours à l'écriture ou bien donner lie à l'établissement d'un *acte écrit."@fr;
+(lat.: negotium) est une déclaration de volonté par laquelle une ou plusieurs personnes, phyisques ou morales, entendent produire en effet de droit. C'est donc un acte colontaire destiné à susciter, sonfirmer, modifier ou éteindre des droits et des obligations et à engendrer un recours en justice au cas aù le droit serait méconnu. Un acte juridique peut être parfait sans le recours à l'écriture ou bien donner lie à l'établissement d'un *acte&nbsp;écrit."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_4Aa;
    skos:narrower vid:VID_4Ab;
@@ -900,7 +901,7 @@ vid:VID_6a rdf:type skos:Concept;
   skos:prefLabel "acte écrit dispositif"@fr; 
   skos:altLabel "documento dispositivo"@it; 
    skos:definition
-	"Un *acte écrit est:
+	"Un *acte&nbsp;écrit est:
 a. dispositif, si la réalisation de l'acte juridique dépend de sa mise par écrit: il y a alors simultanéité de l'acte juridique qui manifeste la volonté de son auteur, et de l'acte écrit qui le constate et lui donne tous ses effets."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
@@ -911,7 +912,7 @@ vid:VID_6b rdf:type skos:Concept;
   skos:prefLabel "acte écrit probatoire"@fr; 
   skos:altLabel "documento probatorio"@it; 
    skos:definition
-	"Un *acte écrit est:
+	"Un *acte&nbsp;écrit est:
 b. probatoire, si la mise par écrit a pour fin d'apporter la preuve de l'acte juri dique qu'il n'a point fait naître et qui serait parfait sans cette formalité."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
@@ -921,7 +922,7 @@ vid:VID_7a rdf:type skos:Concept;
   skos:altLabel "documento primitivo"@es; 
   skos:prefLabel "acte écrit primitif"@fr; 
    skos:definition
-	"Un *acte écrit est dit, sur le plan juridique:
+	"Un *acte&nbsp;écrit est dit, sur le plan juridique:
 a. primitif, s'il est créateur de droits ou d'obligations."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
@@ -930,7 +931,7 @@ vid:VID_7b rdf:type skos:Concept;
   skos:altLabel "documento récognitive"@es; 
   skos:prefLabel "acte écrit récognitif"@fr; 
    skos:definition
-	"Un *acte écrit est dit, sur le plan juridique: 
+	"Un *acte&nbsp;écrit est dit, sur le plan juridique: 
 b. récognitif, s'il constate, sans le créer, un état de droit ou de fait."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
@@ -940,7 +941,7 @@ vid:VID_7c rdf:type skos:Concept;
   skos:altLabel "documento confirmativo"@es; 
   skos:prefLabel "acte confirmatif"@fr; 
    skos:definition
-	"Un *acte écrit est dit, sur le plan juridique:
+	"Un *acte&nbsp;écrit est dit, sur le plan juridique:
 c. confirmatif, s'il renouvelle un acte primitif ou récognitif."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
@@ -952,7 +953,7 @@ vid:VID_8a rdf:type skos:Concept;
   skos:prefLabel "acte écrit public"@fr; 
   skos:altLabel "documento pubblico"@it; 
    skos:definition
-	"Un *acte écrit est dit:
+	"Un *acte&nbsp;écrit est dit:
 a. public, s'il est émané d'une autorité publique (pape, souverain, prince territo rial, autorité disposant d'une juridiction réputée publique), agissant ès qualité."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
@@ -965,7 +966,7 @@ vid:VID_8b rdf:type skos:Concept;
   skos:prefLabel "acte écrit privé"@fr; 
   skos:altLabel "documento privato"@it; 
    skos:definition
-	"Un *acte écrit est dit:
+	"Un *acte&nbsp;écrit est dit:
 b. privé, s'il émane d'une personne privée, physique ou morale, ou bien d'une personne publique agissant à titre privé.
 On s'accorde aussi, en général, pour considérer comme acte privé un acte concernant une matière de droit privé passé entre personnes privées bien qu'il soit instrumenté devant une autorité publique (notaire ou juridiction gracieuse)"@fr;
    skos:inScheme vid:VID;
@@ -1004,7 +1005,7 @@ vid:VID_10 rdf:type skos:Concept;
   skos:altLabel "monumento"@la; 
    skos:definition
 	"Les titres 
-(lat.: munimenta, monumento) sont les *actes authentiques sur lesquels se fondent les droits et les obligations de leur possesseur, soit qu'ils créent ces droits ou ces obligations, soit qu'ils soient destinés à faire la preuve de leur existence."@fr;
+(lat.: munimenta, monumento) sont les *actes&nbsp;authentiques sur lesquels se fondent les droits et les obligations de leur possesseur, soit qu'ils créent ces droits ou ces obligations, soit qu'ils soient destinés à faire la preuve de leur existence."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_9 . 
 
@@ -1026,7 +1027,7 @@ vid:VID_12 rdf:type skos:Concept;
   skos:altLabel "contractus"@la; 
    skos:definition
 	"Un contrat 
-(lat.: contractus) est un *acte synallagmatique entraînant pour les deux parties des droits ou des obligations réciproques."@fr;
+(lat.: contractus) est un *acte&nbsp;synallagmatique entraînant pour les deux parties des droits ou des obligations réciproques."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_4Bb . 
 
@@ -1121,8 +1122,8 @@ vid:VID_19 rdf:type skos:Concept;
   skos:prefLabel "édition diplomatique"@fr; 
   skos:altLabel "edizione critica"@it; 
    skos:definition
-	"Un édition diplomatique
-est la Publication d'un document, après établissement critique de son texte compte tenu de la tradition de celui-ci et d'un examen critique de sa *sincérité et de sa datation."@fr;
+	"Une édition diplomatique
+est la publication d'un document, après établissement critique de son texte compte tenu de la tradition de celui-ci et d'un examen critique de sa *sincérité et de sa datation."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_108 . 
 
@@ -1182,7 +1183,7 @@ vid:VID_23 rdf:type skos:Concept;
   skos:altLabel "regestenlijst"@nl; 
    skos:definition
 	"Des regestes 
-sont, réunies en un recueil chronologique, des *analyses d'actes provenant d'un même *chancellerie ou concernant un même objet, accompagnées éventuellement des indications historiques illustrant l'itinéraire d'un prince, les événement de son principat, les faits concernant la personne physique ou morale concernée."@fr;
+sont, réunies en un recueil chronologique, des *analyses d'actes provenant d'un même *chancellerie ou concernant un même objet, accompagnées éventuellement des indications historiques illustrant l'itinéraire d'un prince, les événement de son principat, les faits concernant la personne physique ou morale concernée."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_23-1;
    skos:related vid:VID_268;
@@ -1306,8 +1307,8 @@ vid:VID_31 rdf:type skos:Concept;
   skos:altLabel "serie archivistica"@it; 
    skos:definition
 	"Une série d'archives 
-est une suite de *pièces de même nature à l'intérieur d'un *fonds d'archives. Ces séries peuvent être chronologiques, alphabétiques, métho diques.
-On appelle aussi série des groupes de *fonds de même nature se rapportant à des matières analogues et figurant sous une même désignation (*lettre de série) dans un cadre de classement général d'un dépôt d'archives."@fr;
+est une suite de *pièces de même nature à l'intérieur d'un *fonds d'archives. Ces séries peuvent être chronologiques, alphabétiques, métho diques.
+On appelle aussi série des groupes de *fonds de même nature se rapportant à des matières analogues et figurant sous une même désignation (*lettre&nbsp;de&nbsp;série) dans un cadre de classement général d'un dépôt d'archives."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_26;
    skos:related vid:VID_30 . 
@@ -1336,7 +1337,7 @@ vid:VID_33 rdf:type skos:Concept;
   skos:altLabel "segnatura"@it; 
    skos:definition
 	"Une cote (d'archives ou de bibliothèque) 
-est la référence (numérique, alpha numérique, sigle etc.) assignée à un *article ou à une *pièce d'archives ou encore à une unité de conservation d'une bibliothèque, pour l'identifier et permettre ainsi de la retrou ver et de la citer."@fr;
+est la référence (numérique, alpha numérique, sigle etc.) assignée à un *article ou à une *pièce&nbsp;d'archives ou encore à une unité de conservation d'une bibliothèque, pour l'identifier et permettre ainsi de la retrou ver et de la citer."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_30;
    skos:related vid:VID_32 . 
@@ -1420,7 +1421,7 @@ vid:VID_38 rdf:type skos:Concept;
   skos:altLabel "rotulus"@la; 
    skos:definition
 	"Un rouleau (ou anc. rôle; lat.: rotulus) 
-est une *piéce d'archives, normale ment formée de plusieurs feuilles de parchemin (ou de papier) cousues ou collées bout à bout et destinée à être conservé roulée (cf. n°140).
+est une *piéce d'archives, normale ment formée de plusieurs feuilles de parchemin (ou de papier) cousues ou collées bout à bout et destinée à être conservé roulée (cf. n°140).
 Un rouleau de papyrus était dit aussi -improprement- tomus (carticius)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_30;
@@ -1494,7 +1495,7 @@ vid:VID_41c rdf:type skos:Concept;
   skos:altLabel "Faszikel"@de; 
   skos:altLabel "fasciculum"@la; 
    skos:definition
-	"c. Dans l'Empire, on en vint dès le xive ou le XVe siècle, à superposer les pièces jointes, les unes au-dessus des autres en les cousant et en les réunissant en libelli ou fasciculi
+	"c. Dans l'Empire, on en vint dès le xiv<sup>e</sup> ou le XV<sup>e</sup> siècle, à superposer les pièces jointes, les unes au-dessus des autres en les cousant et en les réunissant en libelli ou fasciculi
 "@fr;
    skos:inScheme vid:VID . 
 
@@ -1596,7 +1597,7 @@ vid:VID_46 rdf:type skos:Concept;
   skos:altLabel "documento originale"@it; 
    skos:definition
 	"L' expédition d'un acte 
-est soit l'original lui-même, soit l'exemplaire mis en forme (*grossoyé) par la *chancellerie ou le *bureau d'écriture, destiné - dans l'un et l'autre cas - à être remis à la partie intéressée, qui généralement le conserve à titre de preuve.
+est soit l'original lui-même, soit l'exemplaire mis en forme (*grossoyé) par la *chancellerie ou le *bureau&nbsp;d'écriture, destiné - dans l'un et l'autre cas - à être remis à la partie intéressée, qui généralement le conserve à titre de preuve.
 A Byzance, l'ordre de l'empereur était, d'abord, envoyé à un agent impérial qui en transmettait la *teneur à l'intéressé sous la forme d'une reprise de l'acte."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_46a;
@@ -1775,7 +1776,7 @@ vid:VID_54 rdf:type skos:Concept;
   skos:altLabel "copia authentica"@la; 
    skos:definition
 	"Une copie authentique 
-(lat.: copia authentica) est une copie qui, établie dans une certaine forme, comporte des éléments de validation destinés à lui donner pleine foi. Cette marque d' *authenticité juridique ne préjuge nullement de la *sincérité de la pièce copiée."@fr;
+(lat.: copia authentica) est une copie qui, établie dans une certaine forme, comporte des éléments de validation destinés à lui donner pleine foi. Cette marque d' *authenticité juridique ne préjuge nullement de la *sincérité de la pièce copiée."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_109;
    skos:related vid:VID_108 . 
@@ -1934,7 +1935,7 @@ vid:VID_65a rdf:type skos:Concept;
   skos:altLabel "inserire"@la; 
    skos:definition
 	"l'Insertion:
-a. Soit pour donner un appui juridique à cet acte (c'et la *copie insérée)"@fr;
+a. Soit pour donner un appui juridique à cet acte (c'et la *copie insérée)"@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_66 . 
 
@@ -2097,7 +2098,7 @@ vid:VID_73 rdf:type skos:Concept;
   skos:altLabel "liber copiarum"@la; 
    skos:definition
 	"Un recueil de copies 
-(lat.: liber copiarum) est un volume renfermant une collection de copies. Il peut prendre la forme d'un *cartulaire, d'un *recueil de chartes, d'un *registre, d'un ensemble de copies faites par un érudit etc."@fr;
+(lat.: liber copiarum) est un volume renfermant une collection de copies. Il peut prendre la forme d'un *cartulaire, d'un *recueil&nbsp;de&nbsp;chartes, d'un *registre, d'un ensemble de copies faites par un érudit etc."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_74;
    skos:related vid:VID_91;
@@ -2322,7 +2323,7 @@ vid:VID_86 rdf:type skos:Concept;
   skos:altLabel "catalogo"@it; 
    skos:definition
 	"Un catalogue 
-est une liste plus ou moins développée de documents ou d'ob jets divers conservés en différents lieux (archives, bibliothèques, musées) ou dans des collections publiques ou privées, mais se rapportant à un même thème (catalogue de documents relatifs à une ville, à une région, à un personnage...; catalogue d'exposition etc.; cf. n° 19, *catalogue d'actes)."@fr;
+est une liste plus ou moins développée de documents ou d'ob jets divers conservés en différents lieux (archives, bibliothèques, musées) ou dans des collections publiques ou privées, mais se rapportant à un même thème (catalogue de documents relatifs à une ville, à une région, à un personnage...; catalogue d'exposition etc.; cf. n° 19, *catalogue d'actes)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_19;
    skos:related vid:VID_86 . 
@@ -2358,7 +2359,7 @@ vid:VID_88 rdf:type skos:Concept;
   skos:altLabel "menzione"@it; 
    skos:definition
 	"Une mention 
-est la simple indication de l'existence d'un document à une date quelconque, relevée dans un *inventaire d'archives, dans un acte postérieur, dans un texte historiographique, dans les papiers ou l'oeuvre d'un historien."@fr;
+est la simple indication de l'existence d'un document à une date quelconque, relevée dans un *inventaire d'archives, dans un acte postérieur, dans un texte historiographique, dans les papiers ou l'oeuvre d'un historien."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_84 . 
 
@@ -2468,7 +2469,7 @@ vid:VID_95 rdf:type skos:Concept;
    skos:definition
 	"L'insinuation 
 (lat.: insinuatio) est une procédure visant à donner authenticité ou publicité à des actes par le moyen de leur enregistrement dans des registres tenus par une autorité publique adéquate.
-Ainsi la pratique des *gesta municipalia à l'époque romaine, celle de l'insinuation des testaments par certaines cours (officialités, cours judiciaires) du Moyen Age, celle de l'institution française de l'insinuation des actes créée au XVIe siècle pour donner publicité aux actes privés. L'insinuation obligatoire des actes publics relatifs aux concessions féodales fut introduite dans le royaume de Naples au XVe siècle. A Messine, en 1306, l'insinuation fiit instituée pour les actes de transfert des immeubles sur lesquels pouvait s'exercer un droit de préemption (prelaziotte, proto-misi); ils devaient faire l'objet d'une presentatio in Curia et y demeurer trois jours."@fr;
+Ainsi la pratique des *gesta municipalia à l'époque romaine, celle de l'insinuation des testaments par certaines cours (officialités, cours judiciaires) du Moyen Age, celle de l'institution française de l'insinuation des actes créée au XVIe siècle pour donner publicité aux actes privés. L'insinuation obligatoire des actes publics relatifs aux concessions féodales fut introduite dans le royaume de Naples au XVe siècle. A Messine, en 1306, l'insinuation fiit instituée pour les actes de transfert des immeubles sur lesquels pouvait s'exercer un droit de préemption (prelaziotte, proto-misi); ils devaient faire l'objet d'une presentatio in Curia et y demeurer trois jours."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_96 . 
 
@@ -2607,7 +2608,7 @@ vid:VID_106 rdf:type skos:Concept;
   skos:altLabel "critica diplomática"@it; 
    skos:definition
 	"La critique diplomatique, 
-opérant principalement sur la *forme des actes et sur les conditions de leur *élaboration, a pour objet de déterminer la sincérité d'un acte et, éventuellement, les *altérations et *remaniements dont il a pu être l'objet, d'en préci ser la date et déjuger de la portée réelle de son contenu, compte tenu de sa formulation."@fr;
+opérant principalement sur la *forme&nbsp;des&nbsp;actes et sur les conditions de leur *élaboration, a pour objet de déterminer la sincérité d'un acte et, éventuellement, les *altérations et *remaniements dont il a pu être l'objet, d'en préci ser la date et déjuger de la portée réelle de son contenu, compte tenu de sa formulation."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_131;
    skos:related vid:VID_265;
@@ -2683,7 +2684,7 @@ vid:VID_112 rdf:type skos:Concept;
   skos:prefLabel "faussaire"@fr; 
   skos:altLabel "falsario"@it; 
    skos:definition
-	"L'auteur d'un *acte faux, quel qu'en soit le motif, est un 'faussaire'."@fr;
+	"L'auteur d'un *acte&nbsp;faux, quel qu'en soit le motif, est un 'faussaire'."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_111 . 
 
@@ -3010,7 +3011,7 @@ vid:VID_131 rdf:type skos:Concept;
   skos:altLabel "forma"@it; 
    skos:definition
 	"La forme de l'acte 
-est le module dans lequel est coulé le contenu de cet acte, l'ensemble des *caractères externes et des *caractères internes qui donnent à l'acte l'aspect qui répond à sa nature diplomatique et juridique selon les régies ou les habitudes de la *chancellerie qui l'expédie ou du *bureau d'écriture qui le rédige."@fr;
+est le module dans lequel est coulé le contenu de cet acte, l'ensemble des *caractères externes et des *caractères internes qui donnent à l'acte l'aspect qui répond à sa nature diplomatique et juridique selon les régies ou les habitudes de la *chancellerie qui l'expédie ou du *bureau d'écriture qui le rédige."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_268;
    skos:related vid:VID_132;
@@ -3026,7 +3027,7 @@ vid:VID_132 rdf:type skos:Concept;
   skos:altLabel "caratteri esterni"@it; 
    skos:definition
 	"Les caractéres externes 
-sont les éléments de forme qui ne peuvent être examinés et étudiés que sur l'orginial ou sur son exacte reproduction: nature et présentation du *support, écriture, *éléments figurés ou décoratifs"@fr;
+sont les éléments de forme qui ne peuvent être examinés et étudiés que sur l'orginial ou sur son exacte reproduction: nature et présentation du *support, écriture, *éléments&nbsp;figurés ou décoratifs"@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_133;
    skos:related vid:VID_145 . 
@@ -3040,7 +3041,7 @@ vid:VID_133 rdf:type skos:Concept;
   skos:altLabel "supporto del documento"@it; 
    skos:definition
 	"On appele support du document (ou matére subjective)
-la matiére sur laquelle la pièce est écrite: papyrus, parchemin, papier, *tablettes des cire ou d'ardoise, pierre etc."@fr;
+la matiére sur laquelle la pièce est écrite: papyrus, parchemin, papier, *tablettes des cire ou d'ardoise, pierre etc."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_134 rdf:type skos:Concept; 
@@ -3090,7 +3091,7 @@ vid:VID_136a rdf:type skos:Concept;
   skos:prefLabel "côté poils"@fr; 
   skos:prefLabel "dos"@fr; 
    skos:definition
-	"a. L'autre côté (côté polis, plus grossier), appelé dos, recoit surtout des notes (*notes dorsales, cotes, analyses ...)"@fr;
+	"a. L'autre côté (côté polis, plus grossier), appelé dos, recoit surtout des notes (*notes dorsales, cotes, analyses ...)"@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_347 . 
 
@@ -3261,7 +3262,7 @@ se compose de deux faces, le recto et le verso. Chacune de ces faces est appelé
 
 vid:VID_144-0 rdf:type skos:Concept; 
    skos:definition
-	"Les autres termes se rapportant au support et à l'´criture figueront dans le \"Vocabulaire Codicologique. Répertoire méthodique des termes francais relatifs aux manuscrits\" (Paris 1985)"@fr;
+	"Les autres termes se rapportant au support et à l'&#180;criture figueront dans le \"Vocabulaire Codicologique. Répertoire méthodique des termes francais relatifs aux manuscrits\" (Paris 1985)"@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_145 rdf:type skos:Concept; 
@@ -3314,7 +3315,7 @@ vid:VID_148 rdf:type skos:Concept;
    skos:definition
 	"Un monogramme
 est une figure formée de lettres disposées selon un dessin plus ou moins géométrique et qu'on trouve dans les monogrammes de souverains byzantins, les légendes d'anneaux sigillaires, les monnaies etc.    Dans le Moyen Age occidental, il tient lieu du Signum des souverains: il est alors formé des lettres de leur nom (souverains mérovingiens mineurs, Carolingiens, rois de France occidentale, dont le monogramme ou karacter devint le caractère distinctif de leurs actes appelés diplômes), ou bien d'un ou de plusieurs mots (souverains germaniques).
-D'autres éléments peuvent aussi prendre la forme de monogramme: le *Bene válete qui fut d'abord souscription pontificale, le mot manupropria des empereurs Henri lu, IV et V."@fr;
+D'autres éléments peuvent aussi prendre la forme de monogramme: le *Bene&nbsp;válete qui fut d'abord souscription pontificale, le mot manupropria des empereurs Henri lu, IV et V."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_148a;
    skos:related vid:VID_155 . 
@@ -3409,7 +3410,7 @@ vid:VID_154 rdf:type skos:Concept;
   skos:altLabel "comma"@it; 
    skos:definition
 	"Le comma 
-est une figure de solennité, d'assez grande dimension, tracée sur les privilèges pontificaux, à droite du *Bene válete, du milieu à la fin du xf siècle et pré sentant la forme générale d'une grande virgule accompagnée de points, à la façon du signe de ponctuation du même nom dont il constitue une amplification."@fr;
+est une figure de solennité, d'assez grande dimension, tracée sur les privilèges pontificaux, à droite du *Bene válete, du milieu à la fin du xf siècle et pré sentant la forme générale d'une grande virgule accompagnée de points, à la façon du signe de ponctuation du même nom dont il constitue une amplification."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_155 . 
 
@@ -3674,14 +3675,14 @@ vid:VID_173a rdf:type skos:Concept;
   skos:prefLabel "spondée"@fr; 
   skos:altLabel "spondaeus"@la; 
    skos:definition
-	"a. On entend par spondée (lat.: spondaeus) un groupe formé par une syllabe accentuée, suivie d'une syllabe atone.: ˗ ⋃;"@fr;
+	"a. On entend par spondée (lat.: spondaeus) un groupe formé par une syllabe accentuée, suivie d'une syllabe atone.: &#727; &#8899;;"@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_173b rdf:type skos:Concept; 
   skos:prefLabel "dactyle"@fr; 
   skos:altLabel "dactylus"@la; 
    skos:definition
-	"b. Par dactyle (lat.: dactylus) un groupe formé par une syllabe accentuée suivie de deux syllabes atones: ˗ ⋃ ⋃."@fr;
+	"b. Par dactyle (lat.: dactylus) un groupe formé par une syllabe accentuée suivie de deux syllabes atones: &#727; &#8899; &#8899;."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_174 rdf:type skos:Concept; 
@@ -3689,7 +3690,7 @@ vid:VID_174 rdf:type skos:Concept;
   skos:altLabel "cursus planus"@la; 
    skos:definition
 	"Le cursus planus 
-comporte une clausule formée de la succession d'un dactyle et d'un spondée, la coupe (= séparation entre les mots) intervenant entre les deux atones du dactyle. Exemple: \"nóstris/infúnde\" = ˗́ ⋃ / ⋃ ˗́ ˗."@fr;
+comporte une clausule formée de la succession d'un dactyle et d'un spondée, la coupe (= séparation entre les mots) intervenant entre les deux atones du dactyle. Exemple: \"nóstris/infúnde\" = &#727;&#833; &#8899; / &#8899; &#727;&#833; &#727;."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_172 . 
 
@@ -3697,7 +3698,7 @@ vid:VID_175 rdf:type skos:Concept;
   skos:prefLabel "cursus tardus"@fr; 
    skos:definition
 	"Le cursus tardus 
-comporte une clausule formée de la succession de deux dactyles, la coupe intervenant entre les deux atones du dactyle. Exemple: \"incarnatiónem/cognóvimus\" = ˗́ ⋃ / ⋃ ˗́ ⋃ ⋃."@fr;
+comporte une clausule formée de la succession de deux dactyles, la coupe intervenant entre les deux atones du dactyle. Exemple: \"incarnatiónem/cognóvimus\" = &#727;&#833; &#8899; / &#8899; &#727;&#833; &#8899; &#8899;."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_172 . 
 
@@ -3705,7 +3706,7 @@ vid:VID_176 rdf:type skos:Concept;
   skos:prefLabel "cursus velox"@fr; 
    skos:definition
 	"Le cursus velox 
-comporte une clausule formée de la succession d'un mot proparoxyton (dactyle) et d'un tétrasyllabe paroxyton. Exemple: \"glóriam / perdu-cámur\" = ˗́ ⋃ ⋃ /˗́ ˗ ˗́."@fr;
+comporte une clausule formée de la succession d'un mot proparoxyton (dactyle) et d'un tétrasyllabe paroxyton. Exemple: \"glóriam / perdu-cámur\" = &#727;&#833; &#8899; &#8899; /&#727;&#833; &#727; &#727;&#833;."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_172 . 
 
@@ -3716,7 +3717,7 @@ vid:VID_177 rdf:type skos:Concept;
   skos:altLabel "cursus trispondaicus"@la; 
    skos:definition
 	"Le cursus spondaicus ou trispondaicus 
-comporte une clausule formée de la succession de trois spondées, la coupe intervenant entre chaque spondée ou, au moins, entre le premier et le deuxième: Exemple: \"sibi/ reti nére\" = ˉˉ/ˉˉ/ˉ́ˉ."@fr;
+comporte une clausule formée de la succession de trois spondées, la coupe intervenant entre chaque spondée ou, au moins, entre le premier et le deuxième: Exemple: \"sibi/ reti nére\" = &#713;&#713;/&#713;&#713;/&#713;&#833;&#713;."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_172 . 
 
@@ -3832,7 +3833,7 @@ vid:VID_185 rdf:type skos:Concept;
   skos:altLabel "invocatio"@la; 
    skos:definition
 	"L'invocation verbale ou simplement invocation 
-(lat.: invocatio) est la formule de dévotion par laquelle s'ouvre le protocole des actes pour que le contenu en soit placé sous la protection divine et éventuellement (ou secondairement) sous le patronage d'un saint, le tout pouvant s'achever par 'Amen'. Elle peut s'acompagner d'une corix ou d'un *invocation figurée (ces deux type d'invocation s'excluant pourtant dans la diplomatique byzantine)."@fr;
+(lat.: invocatio) est la formule de dévotion par laquelle s'ouvre le protocole des actes pour que le contenu en soit placé sous la protection divine et éventuellement (ou secondairement) sous le patronage d'un saint, le tout pouvant s'achever par 'Amen'. Elle peut s'acompagner d'une corix ou d'un *invocation figurée (ces deux type d'invocation s'excluant pourtant dans la diplomatique byzantine)."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_186;
    skos:related vid:VID_146 . 
@@ -3935,7 +3936,7 @@ vid:VID_192 rdf:type skos:Concept;
 vid:VID_192-1 rdf:type skos:Concept; 
    skos:definition
 	"Dans certains actes en forme de lettre closes, l'adresse est extérieure aux document: elle prend normalement plaxe au dos de la pièce (lat.: superscriptio) ou sur un lagnuette; le nom du destinataiere ou les qulificatifs qui lui sont donnés ('Dilecta in Christo filia', 'Très chier et bien amé' ...) sont alors exprimés au vocatif ou sous forme d'apostrphe au début du document.
-Cerains actes (par exemple le *chrysobulle byzantin) sont dépourvus d'adresse."@fr;
+Cerains actes (par exemple le *chrysobulle&nbsp;byzantin) sont dépourvus d'adresse."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_506-1 . 
 
@@ -4903,7 +4904,7 @@ vid:VID_250 rdf:type skos:Concept;
   skos:altLabel "clausola di pubblicazione"@it; 
    skos:definition
 	"Par la clause des formalités de publication, 
-ordre est donné de procéder à la *publication de l'acte par les moyens désignés: *enregistrement ou *insinuation, *cri public (preconizatio), impression, affichage (placard). En certains cas, l'exécution ne pourra intervenir qu'après réalisation de ces formalités."@fr;
+ordre est donné de procéder à la *publication de l'acte par les moyens désignés: *enregistrement ou *insinuation, *cri public (preconizatio), impression, affichage (placard). En certains cas, l'exécution ne pourra intervenir qu'après réalisation de ces formalités."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_377;
    skos:related vid:VID_89;
@@ -4933,7 +4934,7 @@ vid:VID_252 rdf:type skos:Concept;
   skos:altLabel "valedictio"@la; 
    skos:definition
 	"Le souhait final 
-(lat.: valedictio) est, dans une lettre ou un acte de forme épistolaire, la formule par laquelle, dès l'époque romaine, s'achève le texte et qui exprime un souhait à l'égard du destinataire, soit par une phrase (ex.: \"Deus vos custodiat\"; \"Válete in Domino, fratres carissimi\"), soit par un simple verbe (\"Válete\", \"Vale\"), B peut ainsi prendre valeur de souscription. Il peut aussi revêtir l'aspect figuré du *Bene válete (cf. n° 148, n° 155) et, à la chancellerie royale mérovingienne, se déformer dans l'expression également figurée Bene valeat (cf. n° 156)."@fr;
+(lat.: valedictio) est, dans une lettre ou un acte de forme épistolaire, la formule par laquelle, dès l'époque romaine, s'achève le texte et qui exprime un souhait à l'égard du destinataire, soit par une phrase (ex.: \"Deus vos custodiat\"; \"Válete in Domino, fratres carissimi\"), soit par un simple verbe (\"Válete\", \"Vale\"), B peut ainsi prendre valeur de souscription. Il peut aussi revêtir l'aspect figuré du *Bene&nbsp;válete (cf. n° 148, n° 155) et, à la chancellerie royale mérovingienne, se déformer dans l'expression également figurée Bene valeat (cf. n° 156)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_155;
    skos:related vid:VID_148;
@@ -4978,7 +4979,7 @@ vid:VID_255 rdf:type skos:Concept;
   skos:altLabel "sottoscrizione notarile"@it; 
    skos:definition
 	"La souscription notariale 
-est la formule par laquelle un notaire se nommer indiquant la part qu'il a prise à la mise par écrit de l'acte et en prend la responsabilité notamment par l'apposition de son *seing manuel, en vue de lui donner une valeur authentique, par ex.: \"N. notarius publicus ex auctoritate domini imperatoris, hoc instrumentum scripsi et meo signo consueto manu mea subscripsi\"."@fr;
+est la formule par laquelle un notaire se nommer indiquant la part qu'il a prise à la mise par écrit de l'acte et en prend la responsabilité notamment par l'apposition de son *seing manuel, en vue de lui donner une valeur authentique, par ex.: \"N. notarius publicus ex auctoritate domini imperatoris, hoc instrumentum scripsi et meo signo consueto manu mea subscripsi\"."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_151 . 
 
@@ -5169,7 +5170,7 @@ vid:VID_267 rdf:type skos:Concept;
   skos:prefLabel "acte établi hors chancellerie"@fr; 
   skos:prefLabel "acte établi par les soins du destinataire"@fr; 
    skos:definition
-	"On dit qu'un acte est établi hors chancellerie ou bien établi par les soins du destinataire, lorsque le destinataire de l'acte (ou un tiers pour lui) a rédigé l'acte et l'a mis par écrit avant de le présenter à la *chancellerie pour le faire approuver par l'autorité compétente et le faire valider par elle, en y apposant les *marques de validation."@fr;
+	"On dit qu'un acte est établi hors chancellerie ou bien établi par les soins du destinataire, lorsque le destinataire de l'acte (ou un tiers pour lui) a rédigé l'acte et l'a mis par écrit avant de le présenter à la *chancellerie pour le faire approuver par l'autorité compétente et le faire valider par elle, en y apposant les *marques de validation."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_267-1;
    skos:related vid:VID_268;
@@ -5491,7 +5492,7 @@ vid:VID_280-1 rdf:type skos:Concept;
 vid:VID_280-2 rdf:type skos:Concept; 
   skos:altLabel "custos sigilli"@la; 
    skos:definition
-	"Dans certaines chancelleries secondaires, le custos sigilli était le responsable du *service des écritures: en France, un garde du scel avait la responsabilité de la validation des actes par le sceau dans chaque bailliage et chaque sénéchaussée, puis dans les prévôtés et dans certaines institutions, depuis le milieu du XIIIe siècle."@fr;
+	"Dans certaines chancelleries secondaires, le custos sigilli était le responsable du *service&nbsp;des&nbsp;écritures: en France, un garde du scel avait la responsabilité de la validation des actes par le sceau dans chaque bailliage et chaque sénéchaussée, puis dans les prévôtés et dans certaines institutions, depuis le milieu du XIIIe siècle."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_269 . 
 
@@ -5661,7 +5662,7 @@ vid:VID_285-2 rdf:type skos:Concept;
   skos:prefLabel "secrétarii domini regis"@fr; 
   skos:altLabel "registri sigilli secreti"@it; 
    skos:definition
-	"En Aragon, les secretarii domini regis (deux dans les ordonnances de 1344) étaient des notaires de la chancellerie quie rédigeaient et grossoyaeient les actes scellés du *sceau du secret, gardé par le camerlingue, et qui les enregistraient dans la série des registri sigilli secreti. Toujours à la disposition du souverain, ils n'en pouvaient pas moins intervenir dans l'expédition des autres actes de la chancellerie."@fr;
+	"En Aragon, les secretarii domini regis (deux dans les ordonnances de 1344) étaient des notaires de la chancellerie quie rédigeaient et grossoyaeient les actes scellés du *sceau du secret, gardé par le camerlingue, et qui les enregistraient dans la série des registri sigilli secreti. Toujours à la disposition du souverain, ils n'en pouvaient pas moins intervenir dans l'expédition des autres actes de la chancellerie."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_518 . 
 
@@ -5775,7 +5776,7 @@ vid:VID_286g rdf:type skos:Concept;
   skos:altLabel "parcus major"@la; 
   skos:altLabel "major praesidentia"@la; 
    skos:definition
-	"g. Le custos ou senescallus  cancellariae servait de médiateur entre le *parcus major (ou major praesidentia) et les autres charges et offices."@fr;
+	"g. Le custos ou senescallus  cancellariae servait de médiateur entre le *parcus major (ou major praesidentia) et les autres charges et offices."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_286h rdf:type skos:Concept; 
@@ -5940,7 +5941,7 @@ vid:VID_290-1 rdf:type skos:Concept;
 vid:VID_290-2 rdf:type skos:Concept; 
   skos:altLabel "pecatnik"@ru; 
    skos:definition
-	"En Russie, le terme de scelleur (pecatnik) correspond à celui de *garde des sceaux (cf. n° 280)."@fr;
+	"En Russie, le terme de scelleur (pecatnik) correspond à celui de *garde des sceaux (cf. n° 280)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_280 . 
 
@@ -5987,7 +5988,7 @@ vid:VID_292 rdf:type skos:Concept;
   skos:altLabel "sigillum curiae"@la; 
    skos:definition
 	"I'official
-(lat.: officialis) est un auxiliaire de l'évêque (et éventuellement d'un autre dignitaire ecclésiastique: archidiacre, abbé...), nommé et révoqué par lui pour exercer sa juridiction gracieuse et contentieuse, spirituelle et parfois temporelle. De simple vicarius, il est progressivement, vers 1200 (ou plus tard), placé à la tête d'une cour, Voffîcialité, dont le sceau (sigillum curiaé) scelle les actes et notamment les *lettres d'officialité."@fr;
+(lat.: officialis) est un auxiliaire de l'évêque (et éventuellement d'un autre dignitaire ecclésiastique: archidiacre, abbé...), nommé et révoqué par lui pour exercer sa juridiction gracieuse et contentieuse, spirituelle et parfois temporelle. De simple vicarius, il est progressivement, vers 1200 (ou plus tard), placé à la tête d'une cour, Voffîcialité, dont le sceau (sigillum curiaé) scelle les actes et notamment les *lettres d'officialité."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_293 rdf:type skos:Concept; 
@@ -6014,7 +6015,7 @@ vid:VID_294 rdf:type skos:Concept;
   skos:altLabel "notarius publicus"@la; 
    skos:definition
 	"Le notariat public
-est un système, longtemps propre à l'Europe méridionale, dans lequel les actes sont dressés par une personne (lat.: notarius publicus), habilitée! les mettre en forme et à leur conférer l'authenticité par l'apposition de leur *seing manuel, de leur *signature ou d'une formule écrite par leur manus publica.
+est un système, longtemps propre à l'Europe méridionale, dans lequel les actes sont dressés par une personne (lat.: notarius publicus), habilitée! les mettre en forme et à leur conférer l'authenticité par l'apposition de leur *seing manuel, de leur *signature ou d'une formule écrite par leur manus publica.
 "@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_259;
@@ -6105,7 +6106,7 @@ vid:VID_301 rdf:type skos:Concept;
   skos:altLabel "tabellione"@it; 
    skos:definition
 	"(tabellion)
-A l'origine, le tabellion tire son nom du tabellio romain, qui était un *écrivain public. Le mot a pu ensuite être tenu pour l'équivalent de notarius, puis, notamment dans les villes italiennes de tradition romaine, de *notaire public."@fr;
+A l'origine, le tabellion tire son nom du tabellio romain, qui était un *écrivain public. Le mot a pu ensuite être tenu pour l'équivalent de notarius, puis, notamment dans les villes italiennes de tradition romaine, de *notaire public."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_301a;
    skos:related vid:VID_309 . 
@@ -6125,7 +6126,7 @@ vid:VID_302 rdf:type skos:Concept;
   skos:altLabel "tabellionato"@it; 
    skos:definition
 	"Le tabellionage, 
-institué en 1280 dans le royaume de France et immédiatement généralisé dans la France du Nord et les régions voisines, est un système dans lequel les actes, reçus par deux *clercs jurés, sont, en principe mis en forme définitive par un *tabellion et présentés par lui à la juridiction locale (d'abord le bailliage, puis la (prévôté), dont le sceau était apposé par le *garde du scel dé celle-ci; au nom de qui l'acte  normalement intitulé. Le système évolua lentement vers un système de notariat."@fr;
+institué en 1280 dans le royaume de France et immédiatement généralisé dans la France du Nord et les régions voisines, est un système dans lequel les actes, reçus par deux *clercs jurés, sont, en principe mis en forme définitive par un *tabellion et présentés par lui à la juridiction locale (d'abord le bailliage, puis la (prévôté), dont le sceau était apposé par le *garde du scel dé celle-ci; au nom de qui l'acte  normalement intitulé. Le système évolua lentement vers un système de notariat."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_302b;
    skos:narrower vid:VID_302c;
@@ -6155,7 +6156,7 @@ vid:VID_302c rdf:type skos:Concept;
   skos:altLabel "Tabellionatsschreiber"@de; 
   skos:prefLabel "clerc du tabellionage"@fr; 
    skos:definition
-	"c. Un clerc du tabellionage était un auxiliaire du *tabellion qui l'aidait, soit en recevant les pactes au lieu des clercs jurés (qui alors finissent par disparaître), soit en les rédigeant ou en les ¦ grossoyant, soit en les enregistrant dans les registres du tabellionage, le tabellion se bornant parfois ¡à servir d'intermédiaire avec le *garde du scel de la juridiction et à percevoir les taxes."@fr;
+	"c. Un clerc du tabellionage était un auxiliaire du *tabellion qui l'aidait, soit en recevant les pactes au lieu des clercs jurés (qui alors finissent par disparaître), soit en les rédigeant ou en les ¦ grossoyant, soit en les enregistrant dans les registres du tabellionage, le tabellion se bornant parfois ¡à servir d'intermédiaire avec le *garde du scel de la juridiction et à percevoir les taxes."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_301;
    skos:related vid:VID_280 . 
@@ -6419,7 +6420,7 @@ est un acte qui est commandé sans avoir été sollicité par son destinataire."
 vid:VID_318a rdf:type skos:Concept; 
    skos:definition
 	"A la curie pontificale, il y avait:
-a. Des *lettres ou *brefs ordinaires (cf. n° 406 et n° 419) comportant une clause *motu de proprio;"@fr;
+a. Des *lettres ou *brefs ordinaires (cf. n° 406 et n° 419) comportant une clause *motu de proprio;"@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_318b rdf:type skos:Concept; 
@@ -7272,7 +7273,7 @@ vid:VID_358 rdf:type skos:Concept;
   skos:altLabel "extenta"@la; 
    skos:definition
 	"Une étendue 
-(lat.: extensa, extentà) est une minute qui est la rédaction de l'acte faite par un notaire sous sa forme définitive, d'après la *brève (n° 357). Elle n'est établie normalement que lorsque l'expédition lui en est demandée. Il la \"lève\" ou I'\"extrait\" alors de son *registre des brèves."@fr;
+(lat.: extensa, extentà) est une minute qui est la rédaction de l'acte faite par un notaire sous sa forme définitive, d'après la *brève (n° 357). Elle n'est établie normalement que lorsque l'expédition lui en est demandée. Il la \"lève\" ou I'\"extrait\" alors de son *registre des brèves."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_357;
    skos:related vid:VID_357 . 
@@ -7464,7 +7465,7 @@ vid:VID_369 rdf:type skos:Concept;
   skos:altLabel "convalidazione"@it; 
    skos:definition
 	"La validation d'un acte 
-résulte des actions par lesquelles l'acte reçoit ses signes ou marques d'authenticité, variables selon les usage's de la chancellerie considérée (*souscription, *signature, *recognition de chancellerie, *seing, *monogramme, *rota, etc.). Elle est généralement annoncée dans la *formule de corroboration."@fr;
+résulte des actions par lesquelles l'acte reçoit ses signes ou marques d'authenticité, variables selon les usage's de la chancellerie considérée (*souscription, *signature, *recognition&nbsp;de&nbsp;chancellerie, *seing, *monogramme, *rota, etc.). Elle est généralement annoncée dans la *formule&nbsp;de&nbsp;corroboration."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_254;
    skos:related vid:VID_259;
@@ -7517,7 +7518,7 @@ vid:VID_371a rdf:type skos:Concept;
   skos:prefLabel "audiencier"@fr; 
   skos:altLabel "redditor litterarum"@la; 
    skos:definition
-	"a. L'audiencier, en France, successeur du *redditor litterarum de la *chancelier préparait le rôle des affaires soumises à l*Audience et assurait la tenue de la séance. II tenait compte de l'*émolument du sceau."@fr;
+	"a. L'audiencier, en France, successeur du *redditor&nbsp;litterarum de la *chancelier préparait le rôle des affaires soumises à l*Audience et assurait la tenue de la séance. II tenait compte de l'*émolument du sceau."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_376-1;
    skos:related vid:VID_276;
@@ -7639,7 +7640,7 @@ vid:VID_374-1 rdf:type skos:Concept;
   skos:altLabel "quinta taxa"@la; 
   skos:altLabel "summator litterarum apostolicarum"@la; 
    skos:definition
-	"A la chancellerie pontificale, la taxe principale était indiquée, à partir du pontific d'Alexandre IV (1254-1261) sur la *mise au net (mundum) par le *rescribendarius ou *distributor ou *taxator, membres du collège des scriptores litterarum apostolicarum, à gauche sous le *rep? et vérifié par le computator (cf. n° 286 d et e). Le montant de la taxe devait être payé: 1° au collège des scriptores; 2° aux abbreviatures; 3° dans la bullaria, 4° dans l'office du Registre. En cas d'expeditio per Cameram, on payait la quinta taxa, destinée aux secretarii papae ou, plus tardai summator litterarum apostolicarum (cf. n° 286 l et m). En outre, diverses taxes mineures devaiet être payées en cours d'expédition des actes."@fr;
+	"A la chancellerie pontificale, la taxe principale était indiquée, à partir du pontific d'Alexandre IV (1254-1261) sur la *mise au net (mundum) par le *rescribendarius ou *distributor ou *taxator, membres du collège des scriptores litterarum apostolicarum, à gauche sous le *rep? et vérifié par le computator (cf. n° 286 d et e). Le montant de la taxe devait être payé: 1° au collège des scriptores; 2° aux abbreviatures; 3° dans la bullaria, 4° dans l'office du Registre. En cas d'expeditio per Cameram, on payait la quinta taxa, destinée aux secretarii papae ou, plus tardai summator litterarum apostolicarum (cf. n° 286 l et m). En outre, diverses taxes mineures devaiet être payées en cours d'expédition des actes."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_361 . 
 
@@ -7878,7 +7879,7 @@ vid:VID_385 rdf:type skos:Concept;
   skos:altLabel "documento"@it; 
    skos:definition
 	"Une charte 
-est un acte par lequel se manifeste au Moyen Age la volonté de l'auteur de l'*acte écrit et qui constitue normalement un *titre entre les mains de son bénéficiaire."@fr;
+est un acte par lequel se manifeste au Moyen Age la volonté de l'auteur de l'*acte&nbsp;écrit et qui constitue normalement un *titre entre les mains de son bénéficiaire."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_10;
    skos:related vid:VID_3 . 
@@ -7892,7 +7893,7 @@ vid:VID_386 rdf:type skos:Concept;
   skos:altLabel "diploma"@it; 
    skos:definition
 	"Un diplôme 
-est, dans la diplomatique actuelle, un acte qui se caractérise par sa forme plus ou moins solennelle, émané d'une chancellerie souveraine et comportant des *signes de validation tels que le *grand sceau, le *monogramme ou l'intervention de la manus propria du souverain, la '*recognition de chancellerie."@fr;
+est, dans la diplomatique actuelle, un acte qui se caractérise par sa forme plus ou moins solennelle, émané d'une chancellerie souveraine et comportant des *signes de validation tels que le *grand sceau, le *monogramme ou l'intervention de la manus propria du souverain, la '*recognition de chancellerie."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_386a;
    skos:narrower vid:VID_386b;
@@ -7960,7 +7961,7 @@ vid:VID_387 rdf:type skos:Concept;
   skos:altLabel "Notitia"@la; 
    skos:definition
 	"Une notice (notitia) 
-est un écrit dans lequel est consignée la substance d'un *acte ou d'un *fait juridique, soit par le destinataire ou le bénéficiaire lui-même, soit par un tiers, en vue d'en conserver la mémoire. Elle est généralement rédigée sous *forme objective. Elle peut être établie postérieurement à l'action ou au fait qu'elle consigne, souvent à l'occasion d'un litige auquel cette action ou ce fait a donné lieu."@fr;
+est un écrit dans lequel est consignée la substance d'un *acte ou d'un *fait&nbsp;juridique, soit par le destinataire ou le bénéficiaire lui-même, soit par un tiers, en vue d'en conserver la mémoire. Elle est généralement rédigée sous *forme&nbsp;objective. Elle peut être établie postérieurement à l'action ou au fait qu'elle consigne, souvent à l'occasion d'un litige auquel cette action ou ce fait a donné lieu."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_387-1 . 
 
@@ -8061,7 +8062,7 @@ vid:VID_392 rdf:type skos:Concept;
   skos:altLabel "manus propria"@la; 
    skos:definition
 	"Le précepte simple ou mineur 
-est un *précepte qui, en raison de la nature jue du contenu (affranchissement de serfs, confirmation d'échanges etc.), est établi dans une forme moins solennelle que le *précepte ordinaire et, par exemple, à l'époque carolingienne, il ne comporte ni le *monogramme royal, ni, dans la formule de *corrobaration, l'annonce de la manus propria du souverain."@fr;
+est un *précepte qui, en raison de la nature jue du contenu (affranchissement de serfs, confirmation d'échanges etc.), est établi dans une forme moins solennelle que le *précepte ordinaire et, par exemple, à l'époque carolingienne, il ne comporte ni le *monogramme royal, ni, dans la formule de *corrobaration, l'annonce de la manus propria du souverain."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_393 rdf:type skos:Concept; 
@@ -8092,7 +8093,7 @@ Le privilège pontifical délivré par la chancellerie papale répondait à des 
 vid:VID_394a rdf:type skos:Concept; 
   skos:prefLabel "Bene valete"@fr; 
    skos:definition
-	"a. Depuis Hadrien 1er, il était caractérisé par la double date (la première, à la sui te du texte, incorporée à la mention du scriptor de l'acte, et la seconde, au pied de la pièce, plus développée, comportant l'indication de qui a \"donné\" l'acte), ainsi que par le *Bene válete, en principe autographe."@fr;
+	"a. Depuis Hadrien 1er, il était caractérisé par la double date (la première, à la sui te du texte, incorporée à la mention du scriptor de l'acte, et la seconde, au pied de la pièce, plus développée, comportant l'indication de qui a \"donné\" l'acte), ainsi que par le *Bene válete, en principe autographe."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_155 . 
 
@@ -8102,7 +8103,7 @@ vid:VID_394b rdf:type skos:Concept;
   skos:prefLabel "Rota"@fr; 
   skos:prefLabel "Bene valete"@fr; 
    skos:definition
-	"b. A partir de Léon IX (1049-1054), le privilège pontifical comporta la *Rota et le *Bene válete monogrammatique, avec le *Comma (qui disparaît avant la fin du XIe siècle). Dans les années suivantes, et régulièrement à partir de Pascal II, s'ajoutèrent encore la souscription pontificale entre la Roía et le Bene válete, ainsi que, sur trois colonnes, les souscriptions cardinalices. Ce privilège était dès lors appelé privilegium solemne."@fr;
+	"b. A partir de Léon IX (1049-1054), le privilège pontifical comporta la *Rota et le *Bene&nbsp;válete monogrammatique, avec le *Comma (qui disparaît avant la fin du XIe siècle). Dans les années suivantes, et régulièrement à partir de Pascal II, s'ajoutèrent encore la souscription pontificale entre la Roía et le Bene válete, ainsi que, sur trois colonnes, les souscriptions cardinalices. Ce privilège était dès lors appelé privilegium solemne."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_155;
    skos:related vid:VID_153;
@@ -8231,7 +8232,7 @@ vid:VID_398 rdf:type skos:Concept;
   skos:altLabel "litterae solemnes"@la; 
    skos:definition
 	"Une lettre (ou une bulle) ad perpetuam (ou futuram) rei memoriam 
-est une *lettre patente (ou, à la chancellerie pontificale, une *bulle ou un *bref) établie dans une forme solennelle et dans laquelle, notamment, la formule habituelle de *salutation initiale est remplacée par une formule de perpétuité, telle que \"ad perpetuam (ou futuram) rei memoriam\".
+est une *lettre patente (ou, à la chancellerie pontificale, une *bulle ou un *bref) établie dans une forme solennelle et dans laquelle, notamment, la formule habituelle de *salutation initiale est remplacée par une formule de perpétuité, telle que \"ad perpetuam (ou futuram) rei memoriam\".
 Elle apparaît au milieu du XIIIe siècle à la chancellerie pontificale et dans la première moitié du XIVe à la chancellerie royale française."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_397;
@@ -8271,7 +8272,7 @@ vid:VID_402a rdf:type skos:Concept;
   skos:prefLabel "charte"@fr; 
    skos:definition
 	"Une charte:
-a. À la chancellerie royale française charte ou lettre scellée de cire verte est une *lettre patente dressée sous une forme solennelle et scellée du *grand sceau de cire verte sur *lacs de soie rouge et verte afin de leur conférer une valeur de perpétuité."@fr;
+a. À la chancellerie royale française charte ou lettre scellée de cire verte est une *lettre patente dressée sous une forme solennelle et scellée du *grand sceau de cire verte sur *lacs de soie rouge et verte afin de leur conférer une valeur de perpétuité."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_402a-1 rdf:type skos:Concept; 
@@ -8327,7 +8328,7 @@ vid:VID_405 rdf:type skos:Concept;
   skos:prefLabel "lettre de par le roy"@fr; 
    skos:definition
 	"En France, une lettre \"de par le roy\"
-était émanée directement du roi ou de son entourage pour communiquer ses ordres au destinataire; écrite par un *secrétaire du roi, normalement close, elle porte en *vedette les mots \"De par le roy\", s'adresse au destinataire en forme d'apostrophe ou au vocatif (au datif seulement dans les plus anciennes), comporte, dès la fin du XIVe siècle la signature du roi ou du *clerc de la main et est scellée du *sceau du secret ou du *signet royal."@fr;
+était émanée directement du roi ou de son entourage pour communiquer ses ordres au destinataire; écrite par un *secrétaire du roi, normalement close, elle porte en *vedette les mots \"De par le roy\", s'adresse au destinataire en forme d'apostrophe ou au vocatif (au datif seulement dans les plus anciennes), comporte, dès la fin du XIVe siècle la signature du roi ou du *clerc de la main et est scellée du *sceau&nbsp;du&nbsp;secret ou du *signet&nbsp;royal."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_406 rdf:type skos:Concept; 
@@ -8340,7 +8341,7 @@ vid:VID_406 rdf:type skos:Concept;
   skos:altLabel "breve supplicatione introclusae"@la; 
    skos:definition
 	"(Un bref)
-A la Curie pontificale, le bref (lat.: litterae apostolícete informa brevis ou breve) jouait un rôle analogue et a une forme comparable. Rédigé par un *secrétaire, il comporte le nom du pape en *vedette et en capitales, et est scellé de l'*anneau du pêcheur annoncé dans la formule de datation. Il apparaît à la fin du XIVe siècle et prend toute son ampleur au milieu du XVe."@fr;
+A la Curie pontificale, le bref (lat.: litterae apostolícete informa brevis ou breve) jouait un rôle analogue et a une forme comparable. Rédigé par un *secrétaire, il comporte le nom du pape en *vedette et en capitales, et est scellé de l'*anneau du pêcheur annoncé dans la formule de datation. Il apparaît à la fin du XIVe siècle et prend toute son ampleur au milieu du XVe."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_406a;
    skos:related vid:VID_285;
@@ -8357,14 +8358,14 @@ vid:VID_407 rdf:type skos:Concept;
   skos:prefLabel "lettre de sceau plaqué"@fr; 
    skos:definition
 	"Une lettre de sceau plaqué 
-était, à la cour royale française depuis le XIVe siècle, un écrit patent, en principe émané du roi ou de son entourage et donnant un ordre à qui en prend connaissance (tel que sauf-conduit, passeport, mandat de paiement...). Elle comporte en *vedette la mention \"De par le roy\" et est scellée au recto du *sceau du secret de cire rouge."@fr;
+était, à la cour royale française depuis le XIVe siècle, un écrit patent, en principe émané du roi ou de son entourage et donnant un ordre à qui en prend connaissance (tel que sauf-conduit, passeport, mandat de paiement...). Elle comporte en *vedette la mention \"De par le roy\" et est scellée au recto du *sceau&nbsp;du&nbsp;secret de cire rouge."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_408 rdf:type skos:Concept; 
   skos:prefLabel "lettre de cachet"@fr; 
    skos:definition
 	"Une lettre de cachet 
-était, dans la France d'Ancien Régime, une lettre missive contenant, sous une forme diplomatique stricte, un ordre du roi, signé par lui et contre-signe par un *Secrétaire d'Etat."@fr;
+était, dans la France d'Ancien Régime, une lettre missive contenant, sous une forme diplomatique stricte, un ordre du roi, signé par lui et contre-signe par un *Secrétaire&nbsp;d'Etat."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_409 rdf:type skos:Concept; 
@@ -8677,7 +8678,7 @@ vid:VID_421-3-1-1 rdf:type skos:Concept;
   skos:prefLabel "lettres secrètes"@fr; 
   skos:altLabel "litterae secretae"@la; 
    skos:definition
-	"parmi les *lettres curiales étaient encore les lettres secrètes -litterae secretae-, concernant plus particulièrement le domaine politique"@fr;
+	"parmi les *lettres&nbsp;curiales étaient encore les lettres secrètes -litterae secretae-, concernant plus particulièrement le domaine politique"@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_421-3-2 rdf:type skos:Concept; 
@@ -8715,7 +8716,7 @@ vid:VID_421-5 rdf:type skos:Concept;
   skos:altLabel "litterae consistoriales"@la; 
    skos:definition
 	"Chancellerie pontificale:
-- enfin, à partir du XVe siècle, les lettres ou bulles consistoriales (litterae consistoriales) ayant la forme des *lettres solennelles et, en plus, sous le texte, au centre, la *Rota et les souscriptions du pape et de cardinaux (mais sans le *Bene valete)."@fr;
+- enfin, à partir du XVe siècle, les lettres ou bulles consistoriales (litterae consistoriales) ayant la forme des *lettres solennelles et, en plus, sous le texte, au centre, la *Rota et les souscriptions du pape et de cardinaux (mais sans le *Bene valete)."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_422-1-1 rdf:type skos:Concept; 
@@ -8802,14 +8803,14 @@ vid:VID_422-4-4 rdf:type skos:Concept;
   skos:prefLabel "réglement"@fr; 
    skos:definition
 	"Dans le domaine réglementair, on distinguait encore:
-- le réglement, acte réglant (sous l'Ancien Régime) l'organiation ou le fonctionnement d'un service, établie sous la forme d'une pièce d'*allure objective, non scellée mais portant la signature du roi et le contre-seing du Secrétaire d'Etat ayant compétence en la matière."@fr;
+- le réglement, acte réglant (sous l'Ancien Régime) l'organiation ou le fonctionnement d'un service, établie sous la forme d'une pièce d'*allure objective, non scellée mais portant la signature du roi et le contre-seing du Secrétaire d'Etat ayant compétence en la matière."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_422-5 rdf:type skos:Concept; 
   skos:prefLabel "actes sous un sceau de substitution"@fr; 
    skos:definition
 	"Dans le domaine réglementaire, on distinguait encore:
-En outre depuis XIVe siècle, les Cours à Paris expédiaient, en l'absence du roi ou du chancelier, des actes sous un *sceau de substitution, qui devint de règle à la fin du siècle scomme *sceau ordonné."@fr;
+En outre depuis XIVe siècle, les Cours à Paris expédiaient, en l'absence du roi ou du chancelier, des actes sous un *sceau&nbsp;de&nbsp;substitution, qui devint de règle à la fin du siècle scomme *sceau&nbsp;ordonné."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_423-1 rdf:type skos:Concept; 
@@ -8818,7 +8819,7 @@ vid:VID_423-1 rdf:type skos:Concept;
   skos:altLabel "letter patent"@en; 
    skos:definition
 	"Chancellerie royale anglaise.
-La plupart des actes expédiés par la chancellerie appartiennent, depuis le XIIIe siècle, à l'une des trois espèces diplomatiques suivantes: la *charter, les *letters patent et les *letters (ou *writs) close.
+La plupart des actes expédiés par la chancellerie appartiennent, depuis le XIIIe siècle, à l'une des trois espèces diplomatiques suivantes: la *charter, les *letters patent et les *letters (ou *writs) close.
 ..."@fr;
    skos:inScheme vid:VID . 
 
@@ -8849,7 +8850,7 @@ vid:VID_423-2 rdf:type skos:Concept;
    skos:definition
 	"Chancellerie royale anglaise
 (...) 
-Les lettres ou writs close (lat.: litterae clausae, breve clausum), validés, en même temps que clos, du grand sceau de cire blanche(ou, plus souvent, de la moitié du sceau: sub pede sigilii), servaient à transmettre les ordres du roi è ses officiers et sujets, è envoyeer des requêtes ou des nouvelles è des personnages étrangers etc. Leur adresse était spéciale, mentionnant soit une persone déterminée, soit un groupe d'officiers représentant un seul servie (ex. les chambellans ou les barons de l'Echiquier). A la différence des *letters patent, elles n'ont pas de corroboration, mais se terminent par la même formule de datations, y compris, dans la majorité des cas, l'année du régne. Pour les lettres destinées à l'étranger, la formule 'teste me ipso' est en général remplacée par le mot \"Datum\" et la date comporte l'an de grâce (et non du règne), calculé suivant le style de l'Annonciation (\"cursus ecclesiae Anglicanae\") selon le calcul florentin.
+Les lettres ou writs close (lat.: litterae clausae, breve clausum), validés, en même temps que clos, du grand sceau de cire blanche(ou, plus souvent, de la moitié du sceau: sub pede sigilii), servaient à transmettre les ordres du roi è ses officiers et sujets, è envoyeer des requêtes ou des nouvelles è des personnages étrangers etc. Leur adresse était spéciale, mentionnant soit une persone déterminée, soit un groupe d'officiers représentant un seul servie (ex. les chambellans ou les barons de l'Echiquier). A la différence des *letters patent, elles n'ont pas de corroboration, mais se terminent par la même formule de datations, y compris, dans la majorité des cas, l'année du régne. Pour les lettres destinées à l'étranger, la formule 'teste me ipso' est en général remplacée par le mot \"Datum\" et la date comporte l'an de grâce (et non du règne), calculé suivant le style de l'Annonciation (\"cursus ecclesiae Anglicanae\") selon le calcul florentin.
 Bient qu'a l'époque moderne, les termes 'writ' et 'letters close' aient parfois été utilisés l'un pour l'autre, le premier doit être réservé pour un ordre du roi adressé à ses officiers ou à ses sujets. Parmi le 'writs close' en peut citer le breve de liberate, ordre de paiement adressé au trésorier et aux chambellans de l'Echiquier ou aux seuls chambellans.
 "@fr;
    skos:inScheme vid:VID . 
@@ -8863,7 +8864,7 @@ vid:VID_423-2-1 rdf:type skos:Concept;
 vid:VID_423-2-2 rdf:type skos:Concept; 
   skos:altLabel "brevia de cursu"@la; 
    skos:definition
-	"Les writs qui pouvaient être expédiés automatiquement par la chancellerie sans autorisation préalable, sur simple demande des intéresés, comprenaient les brevia de cursu, dont le *Register of Writs contient des modèles. Ce Registre (dont il existe de nombreux manuscrits, la pluspart d'origine ecclésiastique et dont les plus anciens remontent au debut du XIIIe siècle) était en réalité un formulaire et non pas un véritable registre."@fr;
+	"Les writs qui pouvaient être expédiés automatiquement par la chancellerie sans autorisation préalable, sur simple demande des intéresés, comprenaient les brevia de cursu, dont le *Register&nbsp;of&nbsp;Writs contient des modèles. Ce Registre (dont il existe de nombreux manuscrits, la pluspart d'origine ecclésiastique et dont les plus anciens remontent au debut du XIIIe siècle) était en réalité un formulaire et non pas un véritable registre."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_423-2-3 rdf:type skos:Concept; 
@@ -9600,7 +9601,7 @@ vid:VID_462 rdf:type skos:Concept;
   skos:altLabel "liber censualis"@la; 
    skos:definition
 	"Un censier 
-(lat.: liber censuum, liber censualis) est un état nominatif des *cens à percevoir par le *seigneur censuel sur ses *censitaires. Il peut être dressé pour l'ensemble des *biens censuéis tenus du seigneur, ou bien pour telle *censive parti culière, et l'énumération peut aussi en être faite par termes de paiement (Noël, Ascen sion, Saint Jean etc.), ou bien par nature du paiement (cens en deniers, ou en nature: froment, seigle, avoine, vin, cire, miel, poules...)."@fr;
+(lat.: liber censuum, liber censualis) est un état nominatif des *cens à percevoir par le *seigneur censuel sur ses *censitaires. Il peut être dressé pour l'ensemble des *biens censuéis tenus du seigneur, ou bien pour telle *censive parti culière, et l'énumération peut aussi en être faite par termes de paiement (Noël, Ascen sion, Saint Jean etc.), ou bien par nature du paiement (cens en deniers, ou en nature: froment, seigle, avoine, vin, cire, miel, poules...)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_461a;
    skos:related vid:VID_461b;
@@ -10264,7 +10265,7 @@ vid:VID_499 rdf:type skos:Concept;
   skos:prefLabel "lettre d'amnistie"@fr; 
    skos:definition
 	"Une lettre d'amnistie 
-est une *lettre d'abolition concernant non pas un individu, mais une collectivité (ville ou province)"@fr;
+est une *lettre&nbsp;d'abolition concernant non pas un individu, mais une collectivité (ville ou province)"@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_500 rdf:type skos:Concept; 
@@ -10448,7 +10449,7 @@ vid:VID_513 rdf:type skos:Concept;
   skos:altLabel "sigillo sotto carta"@it; 
    skos:definition
 	"Un sceau sous papier ou sous couverte 
-est une empreinte obtenue par un scellage sur une mince couche de cire, de *cire à cacheter ou de *pain à cacheter, préala blement recouverte d'une pièce de papier."@fr;
+est une empreinte obtenue par un scellage sur une mince couche de cire, de *cire à cacheter ou de *pain à cacheter, préala blement recouverte d'une pièce de papier."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_514 rdf:type skos:Concept; 
@@ -10549,7 +10550,7 @@ vid:VID_519 rdf:type skos:Concept;
   skos:altLabel "sigillum privatum"@la; 
    skos:definition
 	"Un sceau privé 
-(lat.: sigillum privatum) est, en principe, l'équivalent d'un *sceau du secret, mais, par suite de l'évolution des institutions, il a donné lieu, en Angleterre et en Castille, à l'organisation d'un service royal particulier."@fr;
+(lat.: sigillum privatum) est, en principe, l'équivalent d'un *sceau&nbsp;du&nbsp;secret, mais, par suite de l'évolution des institutions, il a donné lieu, en Angleterre et en Castille, à l'organisation d'un service royal particulier."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_520 rdf:type skos:Concept; 
@@ -10561,7 +10562,7 @@ vid:VID_520 rdf:type skos:Concept;
   skos:altLabel "anulus piscatoris"@la; 
    skos:definition
 	"L'anneau du pêcheur 
-(lat.: anulus piscatoris) était, à l'origine, le *sceau secret dont le pape cachetait certaines de ses missives; il est ensuite devenu le sceau dont étaient scellés les actes établis par les *secrétaires et notamment les *brefs pontificaux."@fr;
+(lat.: anulus piscatoris) était, à l'origine, le *sceau secret dont le pape cachetait certaines de ses missives; il est ensuite devenu le sceau dont étaient scellés les actes établis par les *secrétaires et notamment les *brefs pontificaux."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_518;
    skos:related vid:VID_406;
@@ -10603,7 +10604,7 @@ vid:VID_522 rdf:type skos:Concept;
   skos:prefLabel "sceau de régence"@fr; 
    skos:definition
 	"Un sceau de régence 
-est le sceau dont usaient les régents d'un royaume pour sceller les actes royaux commandés par eux pendant la minorité du roi ou encore en son absence lorsque, par exemple, parti à la croisade, il avait emporté le *grand sceau."@fr;
+est le sceau dont usaient les régents d'un royaume pour sceller les actes royaux commandés par eux pendant la minorité du roi ou encore en son absence lorsque, par exemple, parti à la croisade, il avait emporté le *grand&nbsp;sceau."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_523 rdf:type skos:Concept; 
@@ -10653,7 +10654,7 @@ vid:VID_525 rdf:type skos:Concept;
   skos:altLabel "sigillum ad causas"@la; 
    skos:definition
 	"Un sceau aux causes 
-(lat.: sigillum ad causas) est le sceau particulier dont usaient des autorités municipales ou seigneuriales dans l'exercice de leur juridiction contentieuse; dans certaines villes ou certaines chancelleries, il a pu servir de *substitut du grand sceau ou être l'équivalent du *petit sceau dont il était d'ailleurs dérivé."@fr;
+(lat.: sigillum ad causas) est le sceau particulier dont usaient des autorités municipales ou seigneuriales dans l'exercice de leur juridiction contentieuse; dans certaines villes ou certaines chancelleries, il a pu servir de *substitut&nbsp;du&nbsp;grand sceau ou être l'équivalent du *petit sceau dont il était d'ailleurs dérivé."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_526 rdf:type skos:Concept; 
@@ -10672,7 +10673,7 @@ vid:VID_527 rdf:type skos:Concept;
   skos:altLabel "contrasigillum"@la; 
    skos:definition
 	"Un contre-sceau 
-(contrasigillum) est un sceau de petite dimension empreint au revers du sceau pour compléter la validation et rendre plus difficile toute falsification    II peut être en étroite relation avec le sceau, soit que sa légende continue celle du sceau, soit qu'elle comporte les mots Contrasigillum, Clavis sigilli, Secretum...; ce peut être aussi un autre sceau du même *sigillant (*petit sceau, *sceau du secret, *signet)."@fr;
+(contrasigillum) est un sceau de petite dimension empreint au revers du sceau pour compléter la validation et rendre plus difficile toute falsification    II peut être en étroite relation avec le sceau, soit que sa légende continue celle du sceau, soit qu'elle comporte les mots Contrasigillum, Clavis sigilli, Secretum...; ce peut être aussi un autre sceau du même *sigillant (*petit sceau, *sceau du secret, *signet)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_503;
    skos:related vid:VID_518;
@@ -10795,7 +10796,7 @@ vid:VID_537 rdf:type skos:Concept;
   skos:altLabel "siguió incassato"@it; 
    skos:definition
 	"Un sceau rivé 
-est un *sceau plaqué de telle sorte que la cire pénètre au dos du support à travers une *incision pour mieux la fixer au document.    II peut être renforcé au dos de l'acte par un nouvel apport de matière et même recevoir une autre marque de validation (*contre-sceau, marque de doigts...)."@fr;
+est un *sceau&nbsp;plaqué de telle sorte que la cire pénètre au dos du support à travers une *incision pour mieux la fixer au document.    II peut être renforcé au dos de l'acte par un nouvel apport de matière et même recevoir une autre marque de validation (*contre-sceau, marque de doigts...)."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_527;
    skos:related vid:VID_536;
@@ -11011,7 +11012,7 @@ vid:VID_551 rdf:type skos:Concept;
   skos:prefLabel "attaches d'un sceau pendant sont des liens passant"@fr; 
   skos:altLabel "attacchi del sigillo"@it; 
    skos:definition
-	"Les attaches d'un *sceau pendant 
+	"Les attaches d'un *sceau pendant 
 sont des liens passant à travers le support au moyen d'une *incision et destinés à recevoir le sceau."@fr;
    skos:inScheme vid:VID . 
 
@@ -11181,7 +11182,7 @@ vid:VID_560 rdf:type skos:Concept;
   skos:altLabel "data"@it; 
    skos:definition
 	"La date
-est l'indication du temps où un événement a eu lieu. La date d'un *acte écrit peut correspondre au moment de son *commandement, de sa *rédaction, de sa *validation ou de formalités nécessaires pour en assurer l'ecécution. Un acte peut donc comporter plusieurs dates correspondant à la passation de l'*acte juridique et à l'établissement de l'acte écrit lui-même."@fr;
+est l'indication du temps où un événement a eu lieu. La date d'un *acte&nbsp;écrit peut correspondre au moment de son *commandement, de sa *rédaction, de sa *validation ou de formalités nécessaires pour en assurer l'ecécution. Un acte peut donc comporter plusieurs dates correspondant à la passation de l'*acte&nbsp;juridique et à l'établissement de l'acte écrit lui-même."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_560a;
    skos:related vid:VID_342a;
@@ -11196,7 +11197,7 @@ vid:VID_560a rdf:type skos:Concept;
   skos:prefLabel "date"@fr; 
   skos:altLabel "data"@it; 
    skos:definition
-	"a. Le mot date est également employé dans le sens de *formule de date."@fr;
+	"a. Le mot date est également employé dans le sens de *formule&nbsp;de&nbsp;date."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_561 rdf:type skos:Concept; 
@@ -11210,7 +11211,7 @@ vid:VID_561 rdf:type skos:Concept;
   skos:altLabel "datatio"@la; 
    skos:definition
 	"La formule de date 
-est, dans le texte d'un acte, l'indication qui permet d'en connaître la date. Elle comporte souvent une *date de temps et une *date de lieu.
+est, dans le texte d'un acte, l'indication qui permet d'en connaître la date. Elle comporte souvent une *date de temps et une *date de lieu.
 Elle peut être placée en tête de l'acte (date initiale) ou en fin (date finale) ou bien se trouver partagée entre le début et la fin de l'acte. Par exemple, dans les *privilèges pontificaux du IXe au XIIe siècle, on trouve une \"petite date\" (data brevis) qui comporte une indication sommaire (mois et indiction) dans la formule \"Scriptum per.. .N.\", et une \"grande date\" (data longo) dans la formule finale de *recognition au pied de la pièce (\"Datum per manum.. .N.) (Noter que dans les suppliques pontificales le terme de parva data s'applique à la date du dépôt de la supplique).
 Introduite par les mots Datum, Actum, Factum, Scriptum, Confectum etc. (parfois au féminin et, plus rarement, au masculin) ou par leurs équivalents en langue vulgaire, elle peut se    développer en mentionnant le nom du notaire ou du scribe qui a rédigé ou écrit l'acte (\"Scriptum per manum....\") ou encore de l'officier de chancellerie qui entend donner ainsi une indication sur la responsabilité qu'il a prise dans l'expédition de l'acte (\"Datum per manum...\")."@fr;
    skos:inScheme vid:VID;
@@ -11250,7 +11251,7 @@ vid:VID_564 rdf:type skos:Concept;
   skos:altLabel "elementi cronologici"@it; 
    skos:definition
 	"Les données chronologiques
-d'un acte sont, selon les temps, les régions, les chancelleries et les cas particuliers, l'indication des temps longs (années d'une *ère, d'un *règne ou d'un pontificat, d'un cycle tant civil ou religieux que solaire ou lunaire, mois) et des temps courts (*quantième, *jour de la semaine, *âge de la lune, référence à une fête du *calendrier ecclésiastique, moment de la journée...). Il peut s'agir aussi dé *données événementielles."@fr;
+d'un acte sont, selon les temps, les régions, les chancelleries et les cas particuliers, l'indication des temps longs (années d'une *ère, d'un *règne ou d'un pontificat, d'un cycle tant civil ou religieux que solaire ou lunaire, mois) et des temps courts (*quantième, *jour de la semaine, *âge&nbsp;de&nbsp;la&nbsp;lune, référence à une fête du *calendrier ecclésiastique, moment de la journée...). Il peut s'agir aussi dé *données événementielles."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_610 . 
 
@@ -11291,7 +11292,7 @@ vid:VID_568 rdf:type skos:Concept;
   skos:prefLabel "concordances chronologiques"@fr; 
    skos:definition
 	"Les concordances chronologiques 
-dans une *formule de date sont des *données chronologiques multiples et de nature diverse, telles que *année du règne, *indiction, *épacte, *nombre d'or, *concurrents, *âge de la lune ...
+dans une *formule de date sont des *données chronologiques multiples et de nature diverse, telles que *année du règne, *indiction, *épacte, *nombre d'or, *concurrents, *âge de la lune ...
 Le contrôle de ces données et la recherche de leur synchronisme sont indispensables pour préciser ou vérifier la *datation de l'acte et en faire la critique."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_610;
@@ -11409,8 +11410,8 @@ vid:VID_577 rdf:type skos:Concept;
   skos:altLabel "annus Navitate"@la; 
    skos:definition
 	"L'année de l'Incarnation 
-(lat: annus Incarnationis dominicae, annus ab Incarnatione Domini, annus Nativitatis ou a Nativitate, annus Verbi Incarnaii, ahnàs Domini, annus gratiae... ou leurs équivalents en langues vulgaires) indique une année comptée à partir de Pan I de l*ère chrétienne, avec des points de départ au cours de cette année, qui varient selon les *styles en usage.
-Dans les pays ibériques, l'expression répond assez généralement au *style de l'Annonciation."@fr;
+(lat: annus Incarnationis dominicae, annus ab Incarnatione Domini, annus Nativitatis ou a Nativitate, annus Verbi Incarnaii, ahnàs Domini, annus gratiae... ou leurs équivalents en langues vulgaires) indique une année comptée à partir de Pan I de l*ère chrétienne, avec des points de départ au cours de cette année, qui varient selon les *styles en usage.
+Dans les pays ibériques, l'expression répond assez généralement au *style de l'Annonciation."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_583;
    skos:related vid:VID_575;
@@ -11489,7 +11490,7 @@ vid:VID_582a rdf:type skos:Concept;
   skos:prefLabel "style delphinal"@fr; 
   skos:altLabel "mos Delphinatus"@la; 
    skos:definition
-	"a. Le style delphinal (lat.: mos Delphinatus) était en France le style de Noël, demeuré en usage pour les actes propres au Dauphiné après son union au royaume, bien qu'à cette époque celui-ci se fût généralement rallié au *style de Pâques."@fr;
+	"a. Le style delphinal (lat.: mos Delphinatus) était en France le style de Noël, demeuré en usage pour les actes propres au Dauphiné après son union au royaume, bien qu'à cette époque celui-ci se fût généralement rallié au *style de Pâques."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_584 . 
 
@@ -11507,7 +11508,7 @@ vid:VID_583 rdf:type skos:Concept;
    skos:definition
 	"Le style de l'Annonciation ou du 25 mars, parfois dit de l'Incarnation,
 fait commencer l'année au jour de l'Annonciation, 25 mars, neuf mois avant la Nativité.
-Il présente deux modalités: le *mode florentin et le *mode pisan, ainsi nommés d'après la ville où ils demeurèrent le plus longtemps en usage, bien que l'un et l'autre eussent été répandus en bien d'autres régions."@fr;
+Il présente deux modalités: le *mode florentin et le *mode pisan, ainsi nommés d'après la ville où ils demeurèrent le plus longtemps en usage, bien que l'un et l'autre eussent été répandus en bien d'autres régions."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_583b;
    skos:narrower vid:VID_583a;
@@ -11661,7 +11662,7 @@ vid:VID_591 rdf:type skos:Concept;
   skos:altLabel "anno indizionale"@it; 
    skos:definition
 	"Une période indictionnelle ou simplement (et par abus) l' indiction 
-est une période de 15 années, dont l'origine remonte à la révision quindécennale du cadastre ro main et dont le point de départ aurait été l'an 313 de l'*ère chrétienne. En fait, la data tion médiévale (sauf cas exceptionnels) se contente d'indiquer le rang des années -dites années indictionnelles ou absolument indictions- dans une période donnée, sans préciser le chiffre de cette période. Ainsi une date telle que indictione Va correspond à une 5e année indictionnelle d'une période indéterminée.
+est une période de 15 années, dont l'origine remonte à la révision quindécennale du cadastre ro main et dont le point de départ aurait été l'an 313 de l'*ère chrétienne. En fait, la data tion médiévale (sauf cas exceptionnels) se contente d'indiquer le rang des années -dites années indictionnelles ou absolument indictions- dans une période donnée, sans préciser le chiffre de cette période. Ainsi une date telle que indictione Va correspond à une 5e année indictionnelle d'une période indéterminée.
 Pratiquement le chiffre de Findiction (année indictionnelle) est donné par le reste d'une division par 15 du millésime de l'année considérée, auquel on a retranché 312; si le reste est 0, le chiffre de l'indiction est 15."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_575 . 
@@ -11673,7 +11674,7 @@ vid:VID_592 rdf:type skos:Concept;
   skos:prefLabel "style indictionnel"@fr; 
    skos:definition
 	"Le style de l'indiction ou style indictionnel 
-est l'usage suivi pour le change ment du chiffre de l'indiction dans une région ou une chancellerie donnée. Le début d'une *année indictionnelle varie, selon les styles suivis, entre le 1er septembre et le 25 décembre."@fr;
+est l'usage suivi pour le change ment du chiffre de l'indiction dans une région ou une chancellerie donnée. Le début d'une *année indictionnelle varie, selon les styles suivis, entre le 1er septembre et le 25 décembre."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_591 . 
 
@@ -11724,7 +11725,7 @@ vid:VID_596 rdf:type skos:Concept;
   skos:altLabel "indizione romana"@it; 
    skos:definition
 	"L' indiction romaine ou pontificale 
-a pour point de départ le 25 décembre et coïncide donc avec le *style de Noël; le changement de millésime et du chiffre de r indiction se font à la même date.    Elle a été en usage à la chancellerie pontificale depuis 1088 et dans une large partie de l'Italie du Nord et du Centre."@fr;
+a pour point de départ le 25 décembre et coïncide donc avec le *style de Noël; le changement de millésime et du chiffre de r indiction se font à la même date.    Elle a été en usage à la chancellerie pontificale depuis 1088 et dans une large partie de l'Italie du Nord et du Centre."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_582 . 
 
@@ -11860,7 +11861,7 @@ vid:VID_606a rdf:type skos:Concept;
   skos:altLabel "por dios andados"@pt; 
    skos:definition
 	"Le comput bolognais:
-a. la première, du 1er au 15, dans les mois de 30 jours, et au 16, dans ceux de 31 jours, est dite mensis intrans ou introitus mensis, et les jours suivent un *compte progressif (lat: in introitu mensis, mense intrante ou stante ou instante.);"@fr;
+a. la première, du 1er au 15, dans les mois de 30 jours, et au 16, dans ceux de 31 jours, est dite mensis intrans ou introitus mensis, et les jours suivent un *compte progressif (lat: in introitu mensis, mense intrante ou stante ou instante.);"@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_605 . 
 
@@ -12184,7 +12185,7 @@ vid:VID_610 rdf:type skos:Concept;
    skos:definition
 	"L' âge de la lune ou quantième lunaire 
 est une date de jour comptée à partir de la lune naissante dans le mois considéré: luna Xa signifie que la lune en est à son 10e jour depuis la nouvelle lune du mois.
-On le calcule en ajoutant à l'*épacte de l'année le chiffre du *régulier lunaire correspondant au mois considéré. On obtient ainsi l'âge de la lune au premier jour de ce mois."@fr;
+On le calcule en ajoutant à l'*épacte de l'année le chiffre du *régulier&nbsp;lunaire correspondant au mois considéré. On obtient ainsi l'âge de la lune au premier jour de ce mois."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_640;
    skos:related vid:VID_641 . 
@@ -12458,7 +12459,7 @@ vid:VID_615 rdf:type skos:Concept;
   skos:altLabel "feste mobili"@it; 
    skos:definition
 	"Les fêtes mobiles 
-sont, pour l'essentiel, établies en relation avec la fête de *Pâques, dont la date gouverne les *temps liturgiques."@fr;
+sont, pour l'essentiel, établies en relation avec la fête de *Pâques, dont la date gouverne les *temps&nbsp;liturgiques."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_623;
    skos:related vid:VID_616 . 
@@ -12721,10 +12722,10 @@ S'ouvre alors la dernière semaine avant Pâques, la Semaine sainte (anc. fr. Se
 vid:VID_622a rdf:type skos:Concept; 
   skos:prefLabel "lundi saint ..."@fr; 
   skos:altLabel "grand lundi ..."@fro; 
-  skos:altLabel "feria  major"@la; 
-  skos:altLabel "feria  magna"@la; 
-  skos:altLabel "feria  Majoris Hebdomadae"@la; 
-  skos:altLabel "feria  sancta"@la; 
+  skos:altLabel "feria <secunda> major"@la; 
+  skos:altLabel "feria <secunda> magna"@la; 
+  skos:altLabel "feria <secunda> Majoris Hebdomadae"@la; 
+  skos:altLabel "feria <secunda> sancta"@la; 
    skos:definition
 	"Semaine sainte:
 a. Chacun des jours de cette semaine est dit major ou magna (feria secunda major I magna: cf. anc. fr.: le grand lundi...) ou feria secunda Majoris Hebdomadae etc., ou encore sancta (fr.: lundi saint), plus particulièrement les derniers jours de cette semaine:"@fr;
@@ -12980,7 +12981,7 @@ vid:VID_629 rdf:type skos:Concept;
   skos:altLabel "circulas paschalis"@la; 
    skos:definition
 	"Le grand cycle pascal 
-(lat.: circulus magnus, circulas paschalis) est le cycle ijuï\" combinant le *cycle lunaire de 19 ans et le *cycle solaire de 28 ans, soit 532 ans, lait revenir les phases de la lune aux mêmes dates de l'année et aux même jours de la Semaine et, en conséquence, amène dans un ordre identique la succession des dates de ttijues."@fr;
+(lat.: circulus magnus, circulas paschalis) est le cycle ijuï\" combinant le *cycle lunaire de 19 ans et le *cycle solaire de 28 ans, soit 532 ans, lait revenir les phases de la lune aux mêmes dates de l'année et aux même jours de la Semaine et, en conséquence, amène dans un ordre identique la succession des dates de ttijues."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_629a;
    skos:related vid:VID_631;
@@ -13018,7 +13019,7 @@ vid:VID_631 rdf:type skos:Concept;
   skos:altLabel "cyclus solis"@la; 
    skos:definition
 	"Le cycle solaire ou cycle de 28 ans 
-(lat.: circulus ou cyclus solis) est la période au bout de laquelle -compte tenu des années bissextiles- les jours de la semaine reviennent régulièrement aux mêmes *quantièmes du mois."@fr;
+(lat.: circulus ou cyclus solis) est la période au bout de laquelle -compte tenu des années bissextiles- les jours de la semaine reviennent régulièrement aux mêmes *quantièmes&nbsp;du&nbsp;mois."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_600 . 
 
@@ -13043,7 +13044,7 @@ vid:VID_633 rdf:type skos:Concept;
   skos:altLabel "littera dominicalis"@la; 
    skos:definition
 	"La lettre dominicale de l'année 
-(lat.: littera dominicalis) est la lettre feríale qui correspond au premier dimanche de l'année et, par conséquent le jour de la semaine auquel répond tout quantième de cette année. La succession des lettres dominicales se répète identiquement au bout d'un *cycle solaire de 28 ans .
+(lat.: littera dominicalis) est la lettre feríale qui correspond au premier dimanche de l'année et, par conséquent le jour de la semaine auquel répond tout quantième de cette année. La succession des lettres dominicales se répète identiquement au bout d'un *cycle solaire de 28 ans .
 Les lettres dominicales se succèdent dans l'ordre inverse de l'alphabet: GFEDCBA. Un jour supplémentaire étant inséré, les années bissextiles, au 29 février, ces années comportent une lettre dominicale double (par exemple GF), la première lettre correspondant aux deux premiers mois de l'année, et ta seconde aux mois suivants, à partir du 29 février."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_631 . 
@@ -13060,7 +13061,7 @@ vid:VID_634 rdf:type skos:Concept;
    skos:definition
 	"Les concurrents 
 (lat.: concurrentes, epactae solis, epactae majores) sont des chiffres, de 1 à 7, qui indiquent le nombre de jours qui se sont écoulés entre le dernier dimanche de l'année et le premier jour de l'année suivante, ce qui permet de déterminer le jour de la semaine qui correspond au 1er janvier, et par voie de conséquence, au 24 mars.
-En effet, le chiffre 1 indique qu'un seul jour s'est écoulé entre le dernier dimanche de décembre et le 1er janvier, qui est donc un mardi: le premier dimanche de l'année tombera donc,|e 6 janvier, dont la \"lettre fériale est F; le concurrent 1 correspond donc à la *lettre dominicale F. Or F est la *lettre feríale du 24 mars, ce qui est une donnée essentielle pour la fixation de la date de Pâques (puisque Pâques tombe le dimanche qui suit la pleine lune de l'équinoxe de printemps). Les concurrents reviennent régulièrement dans le même ordre au bout d'un *cycle de 28 ans."@fr;
+En effet, le chiffre 1 indique qu'un seul jour s'est écoulé entre le dernier dimanche de décembre et le 1er janvier, qui est donc un mardi: le premier dimanche de l'année tombera donc,|e 6 janvier, dont la \"lettre fériale est F; le concurrent 1 correspond donc à la *lettre dominicale F. Or F est la *lettre feríale du 24 mars, ce qui est une donnée essentielle pour la fixation de la date de Pâques (puisque Pâques tombe le dimanche qui suit la pleine lune de l'équinoxe de printemps). Les concurrents reviennent régulièrement dans le même ordre au bout d'un *cycle de 28 ans."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_633;
    skos:related vid:VID_631;
@@ -13112,7 +13113,7 @@ vid:VID_638 rdf:type skos:Concept;
   skos:altLabel "Gemeinjahre"@de; 
   skos:prefLabel "235 lunaisons du cycle de 19 ans se répartissent e"@fr; 
    skos:definition
-	"Les 235 lunaisons du *cycle de 19 ans se répartissent en 12 années conk muñes de 12 lunaisons et 7 années embolismiques de 13 lunaisons."@fr;
+	"Les 235 lunaisons du *cycle de 19 ans se répartissent en 12 années conk muñes de 12 lunaisons et 7 années embolismiques de 13 lunaisons."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_636 . 
 
@@ -13125,7 +13126,7 @@ vid:VID_639 rdf:type skos:Concept;
   skos:altLabel "numerus aureus"@la; 
    skos:definition
 	"Le nombre d'or 
-(lat.: numerus aureus) est le chiffre qui indique le rang d'une année dans le *cycle de 19 ans, ce qui détermine le jour où tombent les nouveHtis lunes et, en conséquence, la pleine lune pascale. Ce chiffre-élément de datation-change au 1er janvier, mais parfois aussi au 29 jmars."@fr;
+(lat.: numerus aureus) est le chiffre qui indique le rang d'une année dans le *cycle de 19 ans, ce qui détermine le jour où tombent les nouveHtis lunes et, en conséquence, la pleine lune pascale. Ce chiffre-élément de datation-change au 1er janvier, mais parfois aussi au 29 jmars."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_636 . 
 
@@ -13140,9 +13141,9 @@ vid:VID_640 rdf:type skos:Concept;
   skos:altLabel "epactae minores"@la; 
    skos:definition
 	"L'épacte 
-(lat.: epactae, epactae lunae, epactae minores) est un chiffre qui indique au 22 mars (premier *terme pascal) l*âge de la lune, c'est-à-dire le nombre de jours qui se sont écoulés depuis la nouvelle lune.
-L'épacte permet donc d'établir la concordance entre l'année lunaire et l'année solaire (qui porte le millésime), ta première conditionnant le calendrier des *fêtes mobiles et donc de la date de Pâques.
-Si le *nombre d'or est 1, le 22 mars (lat.: sedes -ou locus- epactae) est le premier jour de la nouvelle lune, et l'épacte est 0 (lat.: epacta nulla)
+(lat.: epactae, epactae lunae, epactae minores) est un chiffre qui indique au 22 mars (premier *terme pascal) l*âge de la lune, c'est-à-dire le nombre de jours qui se sont écoulés depuis la nouvelle lune.
+L'épacte permet donc d'établir la concordance entre l'année lunaire et l'année solaire (qui porte le millésime), ta première conditionnant le calendrier des *fêtes mobiles et donc de la date de Pâques.
+Si le *nombre d'or est 1, le 22 mars (lat.: sedes -ou locus- epactae) est le premier jour de la nouvelle lune, et l'épacte est 0 (lat.: epacta nulla)
 Le chiffre de l'épacte - élément de datation- était fixé au 1er janvier, mais parfois aussi au 1er septembre."@fr;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_640a;
@@ -13168,7 +13169,10 @@ vid:VID_641 rdf:type skos:Concept;
   skos:altLabel "regulares lunae"@la; 
    skos:definition
 	"Les réguliers lunaires 
-(lat.: regulares lunae) sont des chiffres invariables affectés à chacun des mois de l'année, lesquels, ajoutés à ceux de l'*épacte (et en soustrayant 30 de la somme obtenue, si elle dépasse ce chiffre), indiquent l'*âge de la lune au premier jour de chaque mois."@fr;
+(lat.: regulares lunae) sont des chiffres invariables affectés à chacun des mois de l'année, lesquels, ajoutés à ceux de l'*épacte (et en soustrayant 30 de la somme obtenue, si elle dépasse ce chiffre), indiquent l'*âge de la lune au premier jour de chaque mois."@fr;
    skos:inScheme vid:VID;
    skos:related vid:VID_640;
-   skos:related vid:VID_610 .
+   skos:related vid:VID_610 . 
+
+	</pre>
+
