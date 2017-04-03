@@ -183,7 +183,7 @@
 
  <skos:definition xml:lang="fr">
 	"Les caractéres externes 
-sont les éléments de forme qui ne peuvent être examinés et étudiés que sur l'orginial ou sur son exacte reproduction: nature et présentation du *support, écriture, *éléments figurés ou décoratifs
+sont les éléments de forme qui ne peuvent être examinés et étudiés que sur l'orginial ou sur son exacte reproduction: nature et présentation du *support, écriture, *éléments figurés ou décoratifs
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_4" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_133" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_145" />
@@ -444,7 +444,7 @@ désigne la dignité ou la charge dont est revêtu le *chancelier ou l'*archicha
 
  <skos:definition xml:lang="fr">
 	"Un acte juridique 
-(lat.: negotium) est une déclaration de volonté par laquelle une ou plusieurs personnes, phyisques ou morales, entendent produire en effet de droit. C'est donc un acte colontaire destiné à susciter, sonfirmer, modifier ou éteindre des droits et des obligations et à engendrer un recours en justice au cas aù le droit serait méconnu. Un acte juridique peut être parfait sans le recours à l'écriture ou bien donner lie à l'établissement d'un *acte écrit.
+(lat.: negotium) est une déclaration de volonté par laquelle une ou plusieurs personnes, phyisques ou morales, entendent produire en effet de droit. C'est donc un acte colontaire destiné à susciter, sonfirmer, modifier ou éteindre des droits et des obligations et à engendrer un recours en justice au cas aù le droit serait méconnu. Un acte juridique peut être parfait sans le recours à l'écriture ou bien donner lie à l'établissement d'un *acte écrit.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_1" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_3" />
@@ -653,8 +653,8 @@ b. De réelles ces formalités deviennent fictives et donnent simplement lieu à
  <skos:altLabel xml:lang="en">critical edition</skos:altLabel>
 
  <skos:definition xml:lang="fr">
-	"Un édition diplomatique
-est la Publication d'un document, après établissement critique de son texte compte tenu de la tradition de celui-ci et d'un examen critique de sa *sincérité et de sa datation.
+	"Une édition diplomatique
+est la publication d'un document, après établissement critique de son texte compte tenu de la tradition de celui-ci et d'un examen critique de sa *sincérité et de sa datation.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_1" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_108" />
@@ -877,7 +877,7 @@ proprement dit est la partie de la teneur se rapportant directement à l'acte ju
 
  <skos:definition xml:lang="fr">
 	"La date
-est l'indication du temps où un événement a eu lieu. La date d'un *acte écrit peut correspondre au moment de son *commandement, de sa *rédaction, de sa *validation ou de formalités nécessaires pour en assurer l'ecécution. Un acte peut donc comporter plusieurs dates correspondant à la passation de l'*acte juridique et à l'établissement de l'acte écrit lui-même.
+est l'indication du temps où un événement a eu lieu. La date d'un *acte écrit peut correspondre au moment de son *commandement, de sa *rédaction, de sa *validation ou de formalités nécessaires pour en assurer l'ecécution. Un acte peut donc comporter plusieurs dates correspondant à la passation de l'*acte juridique et à l'établissement de l'acte écrit lui-même.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_21" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_342a" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_369" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_3" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_369" />
@@ -1145,7 +1145,7 @@ Un tel fait ne se constate pas dans certains pays (Espagne, Italie)
 
  <skos:definition xml:lang="fr">
 	"La tradition des actes 
-est la chaîne des états d'un *document, entre le texte tel qu'il a été voulu par son auteur et mis par écrit pour la premiére fois d'une facon définitve, et celui qui nous est parvenu.
+est la chaîne des états d'un *document, entre le texte tel qu'il a été voulu par son auteur et mis par écrit pour la première fois d'une façon définitive, et celui qui nous est parvenu.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_2" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_29" />
@@ -1476,7 +1476,7 @@ est un type d'écriture qui répond aux canons propres de la chnacellerie consid
 
  <skos:altLabel xml:lang="it">intitulatio</skos:altLabel>
 
- <skos:altLabel xml:lang="es">intitulatción</skos:altLabel>
+ <skos:altLabel xml:lang="es">intitulaci?n</skos:altLabel>
 
  <skos:altLabel xml:lang="la">intitulatio</skos:altLabel>
 
@@ -1819,7 +1819,7 @@ Cette liste avait pris à Ravenne et ensuite à Venise la forme plus solennelle 
 
  <skos:definition xml:lang="fr">
 	"Les sources diplomatiques 
-sont formées: d'une part, des *actes écrits; de l'autre, des *documents résultant des actions juridiques et des activités administratives et financiéres de toute personne physique ou morale; enfin des lettres expédiées ex-officio et dont la forme est soumise à certaines règles. Constituées essentiellement de *documents d'archives, les sources diplomatiques s'opposent, d'une part, aux textes littéraires et aux sources historiographiques, de l'autre, aux documents non écrits (sources iconographiques, documents archéologiques et objets matériels).
+sont formées: d'une part, des *actes écrits; de l'autre, des *documents résultant des actions juridiques et des activités administratives et financiéres de toute personne physique ou morale; enfin des lettres expédiées ex-officio et dont la forme est soumise à certaines règles. Constituées essentiellement de *documents d'archives, les sources diplomatiques s'opposent, d'une part, aux textes littéraires et aux sources historiographiques, de l'autre, aux documents non écrits (sources iconographiques, documents archéologiques et objets matériels).
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_1" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_29" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_3" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_26" />
@@ -1886,7 +1886,7 @@ sont: la langue employée (avec les vulgarismes éventuels et le *graphies), le 
 
  <skos:definition xml:lang="fr">
 	"La Diplomatique
-est la science qui étudie la *tradition, la *forme et l'*élaboration des *actes écrits. Son objet est d'en faire la critique, déjuger de leur *sincérité, d'apprécier la qualité de leur texte, de dégager des formules tous les éléments du contenu susceptibles d'être utilisés par l'historien, de les dater, enfin de les éditer.
+est la science qui étudie la *tradition, la *forme et l'*élaboration des *actes écrits. Son objet est d'en faire la critique, de juger de leur *sincérité, d'apprécier la qualité de leur texte, de dégager des formules tous les éléments du contenu susceptibles d'être utilisés par l'historien, de les dater, enfin de les éditer.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_1" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_108" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_3" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_265" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_131" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_24" />
@@ -1915,7 +1915,7 @@ est la science qui étudie la *tradition, la *forme et l'*élaboration des *acte
 
  <skos:definition xml:lang="fr">
 	"Un acte écrit 
-(lat.: scriptum, scriptura, instrumentum) est un écrit où se trouve consigné, soit l'accomplissement d'un *acte juridique, soit l'existence d'un *fait juridique, soit encore éventuellement un fait quelconque dès lors que l'écrit est rédigé dans une certaine forme propre à lui donner validité.
+(lat.: scriptum, scriptura, instrumentum) est un écrit où se trouve consigné, soit l'accomplissement d'un *acte juridique, soit l'existence d'un *fait juridique, soit encore éventuellement un fait quelconque dès lors que l'écrit est rédigé dans une certaine forme propre à lui donner validité.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_1" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_5" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_4" />
@@ -1929,7 +1929,7 @@ est la science qui étudie la *tradition, la *forme et l'*élaboration des *acte
 <skos:prefLabel xml:lang="fr">acte écrit récognitif</skos:prefLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est dit, sur le plan juridique: 
+	"Un *acte écrit est dit, sur le plan juridique: 
 b. récognitif, s'il constate, sans le créer, un état de droit ou de fait.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
@@ -1946,7 +1946,7 @@ b. récognitif, s'il constate, sans le créer, un état de droit ou de fait.
 <skos:prefLabel xml:lang="fr">acte confirmatif</skos:prefLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est dit, sur le plan juridique:
+	"Un *acte écrit est dit, sur le plan juridique:
 c. confirmatif, s'il renouvelle un acte primitif ou récognitif.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
@@ -1969,7 +1969,7 @@ c. confirmatif, s'il renouvelle un acte primitif ou récognitif.
  <skos:altLabel xml:lang="es">documento privado</skos:altLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est dit:
+	"Un *acte écrit est dit:
 b. privé, s'il émane d'une personne privée, physique ou morale, ou bien d'une personne publique agissant à titre privé.
 On s'accorde aussi, en général, pour considérer comme acte privé un acte concernant une matière de droit privé passé entre personnes privées bien qu'il soit instrumenté devant une autorité publique (notaire ou juridiction gracieuse)
 </skos:definition>
@@ -2010,7 +2010,7 @@ est: soit un événement qui comporte par lui-même des con séquences juridique
  <skos:altLabel xml:lang="it">documento probatorio</skos:altLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est:
+	"Un *acte écrit est:
 b. probatoire, si la mise par écrit a pour fin d'apporter la preuve de l'acte juri dique qu'il n'a point fait naître et qui serait parfait sans cette formalité.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
@@ -2027,7 +2027,7 @@ b. probatoire, si la mise par écrit a pour fin d'apporter la preuve de l'acte j
 <skos:prefLabel xml:lang="fr">acte écrit primitif</skos:prefLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est dit, sur le plan juridique:
+	"Un *acte écrit est dit, sur le plan juridique:
 a. primitif, s'il est créateur de droits ou d'obligations.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
@@ -2048,7 +2048,7 @@ a. primitif, s'il est créateur de droits ou d'obligations.
  <skos:altLabel xml:lang="es">documento público</skos:altLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est dit:
+	"Un *acte écrit est dit:
 a. public, s'il est émané d'une autorité publique (pape, souverain, prince territo rial, autorité disposant d'une juridiction réputée publique), agissant ès qualité.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
@@ -2141,7 +2141,7 @@ est un acte par lequel des parties s'engagent entre elles sous leur simple signa
 
  <skos:definition xml:lang="fr">
 	"Un contrat 
-(lat.: contractus) est un *acte synallagmatique entraînant pour les deux parties des droits ou des obligations réciproques.
+(lat.: contractus) est un *acte synallagmatique entraînant pour les deux parties des droits ou des obligations réciproques.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_1" /><skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_4Bb" />
@@ -3414,7 +3414,7 @@ est un acte qui n'est pas *sincère, un acte qui ne pré sente pas le caractère
 <skos:prefLabel xml:lang="fr">faussaire</skos:prefLabel>
 
  <skos:definition xml:lang="fr">
-	"L'auteur d'un *acte faux, quel qu'en soit le motif, est un 'faussaire'.
+	"L'auteur d'un *acte faux, quel qu'en soit le motif, est un 'faussaire'.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_2" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_111" />
@@ -9819,7 +9819,7 @@ est déterminée par l'ensemble de ses caractères in ternes et externes, et ell
 
  <skos:definition xml:lang="fr">
 	"Une charte 
-est un acte par lequel se manifeste au Moyen Age la volonté de l'auteur de l'*acte écrit et qui constitue normalement un *titre entre les mains de son bénéficiaire.
+est un acte par lequel se manifeste au Moyen Age la volonté de l'auteur de l'*acte écrit et qui constitue normalement un *titre entre les mains de son bénéficiaire.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
   <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_13" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_10" /><skos:related rdf:resource="http://www.cei.lmu.de/VID/#VID_3" />
@@ -19981,7 +19981,7 @@ scellée du grand sceau de cire verte sur lacs de soie, en général verts et ro
  <skos:altLabel xml:lang="it">documento dispositivo</skos:altLabel>
 
  <skos:definition xml:lang="fr">
-	"Un *acte écrit est:
+	"Un *acte écrit est:
 a. dispositif, si la réalisation de l'acte juridique dépend de sa mise par écrit: il y a alors simultanéité de l'acte juridique qui manifeste la volonté de son auteur, et de l'acte écrit qui le constate et lui donne tous ses effets.
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/" />
@@ -21861,6 +21861,12 @@ Son usage fréquent en Lorraine lui a fait donner aussi le nom de mos Trevirensi
 
    <rdf:Description rdf:about="http://www.cei.lmu.de/VID/#VID_198-1">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+
+<skos:prefLabel xml:lang="fr">verbe du dispositif</skos:prefLabel>
+
+ <skos:altLabel xml:lang="de">dispositives Verb</skos:altLabel>
+
+ <skos:altLabel xml:lang="it">verbo dispositivo</skos:altLabel>
 
  <skos:definition xml:lang="fr">
 	"Le verbe employé dans le dispositif oriente sur la nature juridique de l'acte ('concedimus' = 'concessio', 'vendidimus' = 'venditio' etc.)
