@@ -3,6 +3,7 @@
   <rdf:Description rdf:about="http://www.cei.lmu.de/VID/#VID">
 		<dc:title>Vocabulaire Internationale de Diplomatique</dc:title>
 		<dc:creator>Commission Internationale de Diplomatique</dc:creator>
+   <dc:identifier rdf:resource="http://gams.uni-graz.at/o:vid"></dc:identifier>
 		 <skos:hasTopConcept rdf:resource="http://www.cei.lmu.de/VID/#VID_0"/>
 		 <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
 		 <skos:note>online version of the Vocabulaire international de la diplomatique, ed. Maria Milagros Carcel Orti, 2. ed., Valencia 1997 (Colleccio Oberta)</skos:note>
@@ -912,7 +913,7 @@ est l'indication du temps où un événement a eu lieu. La date d'un *acte écri
 (lat.: arenga, exordium, proemium) est la partie du texte par laquelle celui-ci est justifié de facon générale par des considérations juridiques, religiuese, morales ou simplemtn de convenance (telle qu 'quoniam labilis est memoria').
 </skos:definition>
  <skos:inScheme rdf:resource="http://www.cei.lmu.de/VID/"/>
-  <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_196"/>
+  <skos:broader rdf:resource="http://www.cei.lmu.de/VID/#VID_TOC_7"/>
    </rdf:Description>
 
    <rdf:Description rdf:about="http://www.cei.lmu.de/VID/#VID_397-1">

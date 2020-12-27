@@ -679,6 +679,7 @@ vid:VID_TOC_7 rdf:type skos:Concept;
  skos:narrower vid:VID_185;
  skos:narrower vid:VID_197;
  skos:narrower vid:VID_196;
+ skos:narrower vid:VID_196_bis;
  skos:narrower vid:VID_256;
  skos:narrower vid:VID_263;
  skos:narrower vid:VID_194;
@@ -4021,7 +4022,6 @@ vid:VID_196 rdf:type skos:Concept;
 	"La notification 
 (lat.: notificatio, publicatio, promulgatio) est une formule par laquelle ce qui suit es porté à la conaissance:"@fr;
    skos:inScheme vid:VID;
-   skos:narrower vid:VID_196_bis;
    skos:narrower vid:VID_196a;
    skos:narrower vid:VID_196z-1;
    skos:narrower vid:VID_196z-2;
