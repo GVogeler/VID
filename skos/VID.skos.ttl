@@ -2,8 +2,15 @@
 	@prefix vid: &lt;http://www.cei.lmu.de/VID/#&gt; .
 	@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
 	@prefix dc: &lt;http://purl.org/dc/elements/1.1/#&gt; .
-	
-	vid:VID_TOC_1 rdf:type skos:Concept; 
+
+vid:VID dc:title "Vocabulaire Internationale de Diplomatique" ;
+	dc:creator "Commission Internationale de Diplomatique" ;
+	dc:identifier <http://gams.uni-graz.at/o:vid> ;
+	skos:hasTopConcept vi:VID_0 ;
+	a skos:ConceptScheme ;
+	dc:description "online version of the Vocabulaire international de la diplomatique, ed. Maria Milagros Carcel Orti, 2. ed., Valencia 1997 (Colleccio Oberta)" .
+
+vid:VID_TOC_1 rdf:type skos:Concept; 
  skos:prefLabel "Notions génerales"@fr; 
  skos:narrower vid:VID_4;
  skos:narrower vid:VID_19;
@@ -10690,9 +10697,6 @@ Ainsi le sceau de la femme en contre-sceau de celui du mari; le sceau de l'abbé
 
 vid:VID_529 rdf:type skos:Concept; 
   skos:altLabel "Fremdbesiegelung (= scellage d'un acte par un sceau d'emprunt)"@de; 
-  skos:altLabel "Siegelbitte (= demande d'emprunt de sceau)"@de; 
-  skos:altLabel "Siegelbittzeugen (= témoins de la qualité juridique d'un tel scellage)"@de; 
-  skos:altLabel "Siegelbittzeugen (= témoins de la qualité juridique d'un tel scellage)"@de; 
   skos:altLabel "sello prestado"@es; 
   skos:prefLabel "sceau d'emprunt"@fr; 
   skos:altLabel "sigillo préstato"@it; 
@@ -10700,6 +10704,18 @@ vid:VID_529 rdf:type skos:Concept;
 	"Un sceau d'emprunt 
 est un sceau auquel a recours une personne qui est juridiquement tenue de s'engager sous son propre sceau, mais qui à ce moment n'a pas de sceau disponible ou n'en possède pas ou pas encore; elle, peut alors s'engager à re sceller l'acte ou à le renouveler sous son propre sceau quand elle sera en état de le faire."@fr;
    skos:inScheme vid:VID . 
+
+vid:VID_529a rdf:type skos:Concept ;
+  skos:prefLabel "Siegelbitte"@de;
+  skos:definition "demande d'emprunt de sceau)"@fr;
+  skos:related vid:VID_529 ;
+  skos:inScheme vid:VID .
+  
+vid:VID_529b rdf:type skos:Concept ;
+  skos:prefLabel "Siegelbittzeugen"@de;
+  skos:definition "témoins de la qualité juridique d'un sceau d'emprunt"@fr;
+  skos:related vid:VID_529 ;
+  skos:inScheme vid:VID .
 
 vid:VID_530 rdf:type skos:Concept; 
   skos:altLabel "Siegelechtheitszeugnis"@de; 
