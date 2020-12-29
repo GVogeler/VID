@@ -134,7 +134,7 @@ vid:VID_TOC_13 rdf:type skos:Concept;
  skos:narrower vid:VID_390;
  skos:narrower vid:VID_391;
  skos:narrower vid:VID_392;
- skos:narrower vid:VID_393;
+ skos:narrower vid:VID_add_2;
  skos:narrower vid:VID_395;
  skos:narrower vid:VID_396;
  skos:narrower vid:VID_397;
@@ -157,7 +157,7 @@ vid:VID_TOC_13 rdf:type skos:Concept;
  skos:narrower vid:VID_416;
  skos:narrower vid:VID_419;
  skos:narrower vid:VID_420;
- skos:narrower vid:VID_394;
+ skos:narrower vid:VID_add_2;
  skos:narrower vid:VID_411a;
  skos:narrower vid:VID_406;
  skos:narrower vid:VID_411b-1;
@@ -8075,16 +8075,17 @@ est un *précepte qui, en raison de la nature jue du contenu (affranchissement d
    skos:inScheme vid:VID . 
 
 vid:VID_393 rdf:type skos:Concept; 
-  skos:altLabel "Privileg"@de; 
-  skos:altLabel "privilege"@en; 
+  skos:altLabel "Privileg (geistliches)"@de; 
+  skos:altLabel "privilege (ecclesiastical)"@en; 
   skos:altLabel "privilegio"@es; 
-  skos:prefLabel "privilège"@fr; 
-  skos:altLabel "privilegio"@it; 
-  skos:altLabel "privilegium"@la; 
+  skos:prefLabel "privilège (ecclésiastique)"@fr; 
+  skos:altLabel "privilegio (ecclesiastico)"@it; 
+  skos:altLabel "privilegium (ecclesiae)"@la; 
    skos:definition
 	"Un privilège 
 (lat.: privilegium) est un acte solennel, émané généralement d'une autorité ecclésiastique (privilège pontifical, episcopal, synodal) et constituant ou confirmant une situation juridique spéciale (une privata lex) qui le fait échapper au droit commun."@fr;
-   skos:inScheme vid:VID . 
+   skos:narrower vid:VID_394 ;
+   skos:inScheme vid:VID .
 
 vid:VID_394 rdf:type skos:Concept; 
   skos:altLabel "päpstliches Privileg"@de; 
@@ -13191,3 +13192,31 @@ vid:VID_641 rdf:type skos:Concept;
    skos:inScheme vid:VID;
    skos:related vid:VID_640;
    skos:related vid:VID_610 . 
+   
+vid:VID_add_1 rdf:type skos:Concept ;
+	skos:prefLabel "rescriptum"@lat ;
+	skos:inScheme vid:VID ;
+	skos:broader vid:VID_TOC_13 ;
+	skos:definition "Responses of the ancient Roman emperor to queries and proposals from officials and private persons on every matter imaginable, prepared by the chancery. The rescripta became authoritative source of legal interpretation in classical jurisprudence. In particular the medieval papal chancery used a similar procedure, when a party in a legal case appealed to the papal court."@en.	
+	
+vid:VID_add_2 rdf:type skos:Concept ;
+  skos:altLabel "Privileg"@de; 
+  skos:altLabel "privilege"@en; 
+  skos:altLabel "privilegio"@es; 
+  skos:prefLabel "privilège"@fr; 
+  skos:altLabel "privilegio"@it; 
+  skos:altLabel "privilegium"@la; 
+   skos:definition
+	"Un privilège 
+(lat.: privilegium) est un acte solennel, émané généralement d'une autorité ecclésiastique ou séculaire et constituant ou confirmant une situation juridique spéciale (une privata lex) qui le fait échapper au droit commun."@fr;
+   skos:narrower vid:VID_394, vid:VID_395 ;
+   skos:inScheme vid:VID .
+vid:VID_add_3 rdf:type skos:Concept ;
+  skos:altLabel "kaiserliches Privileg"@de; 
+  skos:altLabel "imperial privilege"@en; 
+  skos:altLabel "privilegio"@es; 
+  skos:prefLabel "privilège imperiale"@fr; 
+  skos:altLabel "privilegio imperiale"@it; 
+  skos:altLabel "privilegium imperiale"@la; 
+   skos:definition "An imperial privilege is a *privilege issued by the Emperor."@en;
+   skos:inScheme vid:VID .
