@@ -13198,7 +13198,6 @@ vid:VID_add_1 rdf:type skos:Concept ;
 	skos:inScheme vid:VID ;
 	skos:broader vid:VID_TOC_13 ;
 	skos:definition "Responses of the ancient Roman emperor to queries and proposals from officials and private persons on every matter imaginable, prepared by the chancery. The rescripta became authoritative source of legal interpretation in classical jurisprudence. In particular the medieval papal chancery used a similar procedure, when a party in a legal case appealed to the papal court."@en.	
-	
 vid:VID_add_2 rdf:type skos:Concept ;
   skos:altLabel "Privileg"@de; 
   skos:altLabel "privilege"@en; 
@@ -13219,4 +13218,10 @@ vid:VID_add_3 rdf:type skos:Concept ;
   skos:altLabel "privilegio imperiale"@it; 
   skos:altLabel "privilegium imperiale"@la; 
    skos:definition "An imperial privilege is a *privilege issued by the Emperor."@en;
+   skos:inScheme vid:VID .
+vid:VID_add_4 rdf:type skos:Concept ;
+  skos:prefLabel "Kurzarenga"@de;
+  skos:broader vid:VID_196_bis ;
+  skos:related vid:VID_198 ;
+  skos:definition "an *arenga integrated into the *dispositio"@en;
    skos:inScheme vid:VID .
