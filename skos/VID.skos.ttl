@@ -7576,6 +7576,8 @@ Voir le Vocabulaire international de la Sigillograph (Roma 1990) et infra (n° 5
    skos:related vid:VID_527;
    skos:related vid:VID_528;
    skos:related vid:VID_529;
+   skos:related vid:VID_529a;
+   skos:related vid:VID_529b;
    skos:related vid:VID_530;
    skos:related vid:VID_531;
    skos:related vid:VID_532;
