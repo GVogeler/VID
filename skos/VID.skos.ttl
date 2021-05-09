@@ -13279,3 +13279,15 @@ vid:VID_add_13 a skos:Concept ;
 	skos:skopeNote "used as the first word of the last line of the diploma"@en ;
 	skos:broader vid:VID_TOC_7 ;
 	skos:inScheme vid:VID .
+vid:VID_add_14 a skos:Concept ;
+	skos:prefLabel "Note dorsual"@fr ;
+	skos:prefLabel "Dorsualnotiz"@de ;
+	skos:prefLabel "dorsal note"@en ;
+	skos:broader vid:347 ;
+	skos:inScheme vid:VID .
+vid:VID_add_15 a skos:Concept ;
+	skos:prefLabel "note marginale"@fr ;
+	skos:prefLabel "Marginalnotiz"@de ;
+	skos:prefLabel "marginal note"@en ;
+	skos:broader vid:347 ;
+	skos:inScheme vid:VID .
