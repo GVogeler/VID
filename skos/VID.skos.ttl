@@ -13192,12 +13192,15 @@ vid:VID_641 rdf:type skos:Concept;
    skos:inScheme vid:VID;
    skos:related vid:VID_640;
    skos:related vid:VID_610 . 
-   
+
+#Große 1996:237
 vid:VID_add_1 rdf:type skos:Concept ;
 	skos:prefLabel "rescriptum"@lat ;
 	skos:inScheme vid:VID ;
 	skos:broader vid:VID_TOC_13 ;
-	skos:definition "Responses of the ancient Roman emperor to queries and proposals from officials and private persons on every matter imaginable, prepared by the chancery. The rescripta became authoritative source of legal interpretation in classical jurisprudence. In particular the medieval papal chancery used a similar procedure, when a party in a legal case appealed to the papal court."@en.	
+	skos:definition "Responses of the ancient Roman emperor to queries and proposals from officials and private persons on every matter imaginable, prepared by the chancery. The rescripta became authoritative source of legal interpretation in classical jurisprudence. In particular the medieval papal chancery used a similar procedure, when a party in a legal case appealed to the papal court."@en.
+
+#Große 1996:237, Guyotjeannin 1996
 vid:VID_add_2 rdf:type skos:Concept ;
   skos:altLabel "Privileg"@de; 
   skos:altLabel "privilege"@en; 
@@ -13225,3 +13228,54 @@ vid:VID_add_4 rdf:type skos:Concept ;
   skos:related vid:VID_198 ;
   skos:definition "an *arenga integrated into the *dispositio"@en;
    skos:inScheme vid:VID .
+
+vid:VID_add_5 rdf:type skos:Concept ;
+	skos:prefLabel "Deperditum"@la ;
+	skos:related vid:VID_88 ;
+	skos:definition "A document not existing anymore in any kind of tradition, but mentioned or clearly referenced in other acts or written sources, from which we can conclude their former existence."@en ;
+	skos:inScheme vid:VID .
+vid:VID_add_6 rdf:type skos:Concept ;
+	skos:prefLabel "missing"@en ;
+	skos:prefLabel "verschollen"@de ;
+	skos:related vid:VID_88 ;
+	skos:defintion "A document gone lost after it had found a reliable publication as scholarly edition, a formal description or even photograph."@en ;
+	skos:inScheme vid:VID .
+vid:VID_add_7 a skos:Concept ;
+	skos:prefLabel "following act"@en ; 
+	skos:prefLabel "Nachurkunde"@de ;
+	skos:related vid:VID_97 ;
+	skos:definition ""@en ;
+	skos:inScheme vid:VID .
+vid:VID_add_8 a skos:Concept ;	
+	skos:prefLabel "Self appellation"@en ;
+	skos:prefLabel "Selbstbezeichnung"@de ;
+	skos:definition "The  terminology of acts used by the authors of the document itself"@en;
+	skos:inScheme vid:VID .
+vid:VID_add_9 a skos:Concept ;
+	skos:prefLabel "Recording note"@en ;
+	skos:prefLabel "Schreibervermerk"@de ;
+	skos:definition "the phrase containing information about the scribe, dictator or circumstances of writing/issuing the document."@en ;
+	skos:inScheme vid:VID .
+vid:VID_add_10 a skos:Concept ;
+	skos:prefLabel "Beurkundungsbefehl"@de ;
+	skos:preflabel "recording order"@en ;
+	skos:related vid:VID_add_9 ;
+	skos:inScheme vid:VID .
+vid:VID_add_11 a skos:Concept ;
+	skos:prefLabel "Logos formula"@en ;
+	skos:prefLabel "Logos-Formel"@de ;
+	skos:broader vid:VID_183 , vid:VID_258 ;
+	skos:definition "The art of validation/recognition mostly of solemnly donation charters, consisting normally of the three times on different places in the document repeated „ΛΟΓΟΣ“ ('word')."@en
+	skos:inScheme vid:VID .
+vid:VID_add_12 a skos:Concept ;
+	skos:prefLabel "Red inked (or special coloured) letters and signs"@en ;
+	skos:prefLabel "rote oder besonders gefärbte Buchstaben und Zeichen"@de ;
+	skos:definition "were in Southeast European diplomatics mainly reserved for emperor’s signature, logos-formula or invocatio symbolica, while other colours were applied only in particular cases (such as green for signatures of Serbian church principals – archbishops and later patriarchs)"@en ;
+	skos:scopeNote "This new entry should be distinguished from the already existing “lettre ornée” (decorated letter, Zierbuchstabe, VID 161), which relates to the form of letters and not to their colour."@en ;
+	skos:broader vid:VID_161 ;
+	skos:inScheme vid:VID .
+vid:VID_add_13 a skos:Concept ;
+	skos:prefLabel "Κράτος clause"@en ;
+	skos:skopeNote "used as the first word of the last line of the diploma"@en ;
+	skos:broader vid:VID_TOC_7 ;
+	skos:inScheme vid:VID .
