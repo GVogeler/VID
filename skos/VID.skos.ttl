@@ -3783,11 +3783,9 @@ proprement dit est la partie de la teneur se rapportant directement à l'acte ju
 
 vid:VID_182 rdf:type skos:Concept; 
   skos:altLabel "Protokoll"@de; 
-  skos:altLabel "Eingangsprotokoll"@de; 
   skos:altLabel "protocol"@en; 
   skos:altLabel "protocolo"@es; 
   skos:prefLabel "protocole"@fr; 
-  skos:prefLabel "protocole initial"@fr; 
   skos:altLabel "protocollo"@it; 
    skos:definition
 	"Le texte s'insère dans un cadre formel initial (le protocole) et final (l'eschatocole), dont les éléments ne sont pas nécessairement formulés en fonction de l'acte en question, mais qui répondent aux régles en usage pour un même type de document, compte tenu de son contenu juridigque et de sa nature diplomatique."@fr;
@@ -13291,3 +13289,13 @@ vid:VID_add_15 a skos:Concept ;
 	skos:prefLabel "marginal note"@en ;
 	skos:broader vid:347 ;
 	skos:inScheme vid:VID .
+vid:VID_add_16 a skos:Concept ;
+  skos:altLabel "Protokoll"@de; 
+  skos:altLabel "Eingangsprotokoll"@de; 
+  skos:altLabel "protocol"@en; 
+  skos:altLabel "protocolo"@es; 
+  skos:prefLabel "protocole"@fr; 
+  skos:prefLabel "protocole initial"@fr; 
+  skos:altLabel "protocollo"@it; 
+  skos:broader vid:VID_182 ;
+  skos:inScheme vid:VID .
