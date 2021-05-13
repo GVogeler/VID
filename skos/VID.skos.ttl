@@ -1713,6 +1713,7 @@ vid:VID_51 rdf:type skos:Concept;
    skos:definition
 	"Une confirmation
 (lat.: confirmatio) est une décision par laquelle sont renouvelées des mesures qui ont été précédemment consignées dans des actes antérieurs. De là une confirmation ou acte confirmatif est l'acte par lequel cette décision est mise par écrit. (Escosse: cf. n° 69)"@fr;
+  skos:scopeNote "Consider the distinction between the legal act (VID_add_17) and the written form of the confirmation."@en;
    skos:inScheme vid:VID;
    skos:narrower vid:VID_51a;
    skos:related vid:VID_69 . 
@@ -13300,3 +13301,25 @@ vid:VID_add_16 a skos:Concept ;
   skos:broader vid:VID_182 ;
   skos:definition "Le texte s'insère dans un cadre formel initial (le protocole)."@fr;
   skos:inScheme vid:VID .
+vid:VID_add_17 a skos:Concept ;
+  skos:altLabel "Bestätigung"@de; 
+  skos:altLabel "confirmation"@en; 
+  skos:altLabel "confirmación"@es; 
+  skos:prefLabel "confirmation"@fr; 
+  skos:altLabel "conferma"@it; 
+  skos:altLabel "confirmatio"@la;
+  skos:definition "Une confirmation (lat.: confirmatio) est une décision par laquelle sont renouvelées des mesures qui ont été précédemment consignées dans des actes antérieurs."@fr
+  skos:related vid:VID_51 , vid:VID_7c ;
+  skos:broader vid:VID_424 ;
+  skos:inScheme vid:VID .
+vid:VID_add_18 a skos:Concept ;
+  skos:prefLabel "Privilege (of immunity)"@en ;
+  skos:prefLabel "Immunitätsprivileg"@de ;
+  skos:definition "A legal act of giving respective immunities"@en ;
+  skos:scopeNote "should be distinct from VID 395 ('le privilège d’immunité')"@en ;
+  skos:related vid:VID_395 ;
+  skos:broader vid:VID_424 ;
+  skos:inScheme vid:VID .
+# vid:VID_add_19 a skos:Concept ;
+#
+# Pertinenz (als Teil der Dispositio, im Sinne Auflisten der geschenkten/bestätigten Besitzungen; es gibt nur „Pertinenzformel“ – 204)
