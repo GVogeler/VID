@@ -3801,7 +3801,7 @@ vid:VID_182a rdf:type skos:Concept;
   skos:prefLabel "protocole final"@fr; 
   skos:altLabel "escatocollo"@it; 
    skos:definition
-	"a. Ces élements de caractère formel ou 'protocolaire' sont fréquement désignés, en francais notamment, par les expressions de 'protocole initial' et de 'protocole final'."@fr;
+	"a. Le texte s'insère dans un cadre formel final (l'eschatocole)."@fr;
    skos:inScheme vid:VID . 
 
 vid:VID_183 rdf:type skos:Concept; 
@@ -13298,4 +13298,5 @@ vid:VID_add_16 a skos:Concept ;
   skos:prefLabel "protocole initial"@fr; 
   skos:altLabel "protocollo"@it; 
   skos:broader vid:VID_182 ;
+  skos:definition "Le texte s'insère dans un cadre formel initial (le protocole)."@fr;
   skos:inScheme vid:VID .
