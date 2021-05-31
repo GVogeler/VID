@@ -962,7 +962,7 @@ vid:VID_8a rdf:type skos:Concept;
   skos:altLabel "documento pubblico"@it; 
    skos:definition
 	"Un *acte&nbsp;écrit est dit:
-a. public, s'il est émané d'une autorité publique (pape, souverain, prince territo rial, autorité disposant d'une juridiction réputée publique), agissant ès qualité."@fr;
+a. public, s'il est émané d'une autorité publique (pape, souverain, prince territorial, autorité disposant d'une juridiction réputée publique), agissant ès qualité."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_3 . 
 
@@ -5897,7 +5897,7 @@ vid:VID_288a rdf:type skos:Concept;
   skos:prefLabel "clercs du compte"@fr; 
    skos:definition
 	"a. Les clercs du roi étaient en France du xne au XVe siècle des *clercs attachés au service du roi qui leur confiait -parallèlement aux \"chevaliers le roi\"- des fonctions à la Cour ou des missions de toute natrue à travers le royaoume. Dès le XIIIe siècle, chaque service de l'Hôtel ou de gouvernement avait d'autre part, à côté du (ou des) maitre qui le dirigeait, un clerc qui rédigait tout ce qui était nécessaire à la marche du service et notamment tenait les comptes, délivrait des quittances et expédiait lettres et mandements. Ex. 'clercs des comptes', 'clercs du Trésor', clercs des arbalétriers\" etc.
-Un situation analogue existait dans les prncipautés territoriales: 'clercs du dux au du comte' et également an Angleterre (royal clerk)."@fr;
+Un situation analogue existait dans les principautés territoriales: 'clercs du dux au du comte' et également an Angleterre (royal clerk)."@fr;
    skos:inScheme vid:VID;
    skos:broader vid:VID_288 . 
 
