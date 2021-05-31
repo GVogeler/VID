@@ -13249,6 +13249,7 @@ vid:VID_add_8 a skos:Concept ;
 	skos:prefLabel "Self appellation"@en ;
 	skos:prefLabel "Selbstbezeichnung"@de ;
 	skos:definition "The  terminology of acts used by the authors of the document itself"@en;
+	skos:broader vid:VID_382 ;
 	skos:inScheme vid:VID .
 vid:VID_add_9 a skos:Concept ;
 	skos:prefLabel "Recording note"@en ;
@@ -13275,7 +13276,7 @@ vid:VID_add_12 a skos:Concept ;
 	skos:inScheme vid:VID .
 vid:VID_add_13 a skos:Concept ;
 	skos:prefLabel "Κράτος clause"@en ;
-	skos:skopeNote "used as the first word of the last line of the diploma"@en ;
+	skos:skopeNote "Κράτος used as the first word of the last line of the diploma"@en ;
 	skos:broader vid:VID_TOC_7 ;
 	skos:inScheme vid:VID .
 vid:VID_add_14 a skos:Concept ;
@@ -13320,6 +13321,49 @@ vid:VID_add_18 a skos:Concept ;
   skos:related vid:VID_395 ;
   skos:broader vid:VID_424 ;
   skos:inScheme vid:VID .
-# vid:VID_add_19 a skos:Concept ;
+vid:VID_add_19 a skos:Concept ;
+  skos:prefLabel "Grenzbeschreibung"@de ;
+  skos:prefLabel "description de frontière"@fr;
+  skos:prefLabel "description of borderds"en ;
+  skos:prefLabel "descrizione del confinde"it ;
+  skos:definition "specifying topographic data in order to define the area of the estates in question"@en ;
+  skos:broader vid:VID_198 ;
+  skos:inScheme vid:VID .
+vid:VID_add_20 a skos:Concept ;
+  skos:prefLabel "Pertinenzliste"@de ;
+  skos:prefLabel "list of pertinents"@en ;
+  skos:related vid:VID_204 ;
+  skos:broader vid:VID_198 ;
+  skos:inScheme vid:VID .
+vid:VID_add_21 a skos:Concept ;
+  skos:prefLabel "langue"@fr ;
+  skos:prefLabel "Sprache"@de ;
+  skos:prefLabel "language"@en ;
+  skos:definition "indicates the language of the witness in question, which also may not be the language of the (preserved or not preserved) original"@en ;
+  skos:broader vid:VID_192 ;
+  skos:inScheme vid:VID .
+vid:VID_add_22 a skos:Concept ;
+  skos:prefLabel "script"@en ;
+  skos:prefLabel "écriture"@fr ;
+  skos:prefLabel "Schrift"@en ;
+  skos:definition "gives the general identification of the script (e.g. Latin, Greek, Cyrillic)"@en;
+  skos:broader vid:VID_132 ;
+  skos:narrower vid:VID_159 ;ß
+  skos:inScheme vid:VID .
+vid:VID_add_23 a skos:Concept ;
+  skos:prefLabel "Schriftstil"@de ;
+  skos:prefLabel "script style"@en ;
+  skos:definition "give the general palaeographical classification of the script (e.g. majuscule, minuscule etc)."@en ;
+  skos:broader vid:VID_add_22 ;
+  skos:inScheme vid:VID .
+vid:VID_add_24 a skos:Concept ;
+  skos:prefLabel "Διά τοῡ clause"@en ;
+  skos:definition "phrase probably indicating the intervener/petitioner"@en ;
+  skos:broader vid:VID_TOC_7 ;
+  skos:inScheme vid:VID .
 #
 # Pertinenz (als Teil der Dispositio, im Sinne Auflisten der geschenkten/bestätigten Besitzungen; es gibt nur „Pertinenzformel“ – 204)
+#Grenzen von Besitzunge
+#vid:VID_add_21 a skos:Concept ;
+#  skos:prefLabel "credible copy"@en
+#  skos:inScheme vid:VID .
