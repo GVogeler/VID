@@ -1,7 +1,8 @@
-	@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
-	@prefix vid: &lt;http://www.cei.lmu.de/VID/#&gt; .
-	@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
-	@prefix dc: &lt;http://purl.org/dc/elements/1.1/#&gt; .
+	@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+	@prefix vid: <http://www.cei.lmu.de/VID/#> .
+	@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+	@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+	@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 vid:VID dc:title "Vocabulaire Internationale de Diplomatique" ;
 	dc:creator "Commission Internationale de Diplomatique" ;
@@ -52,9 +53,16 @@ vid:VID_TOC_16 rdf:type skos:Concept;
  skos:narrower vid:VID_502;
  skos:narrower vid:VID_503 . 
 
-vid:VID_TOC_15 rdf:type skos:Concept; 
- skos:prefLabel "Nature juridique des actes"@fr; 
- skos:narrower vid:VID_424;
+vid:VID_424 rdf:type skos:Concept; 
+  skos:altLabel "Rechtsnatur der Urkunden"@de; 
+  skos:altLabel "naturaleza jurídica de los documentos"@es; 
+  skos:prefLabel "nature juridique des actes"@fr; 
+  owl:sameAs vid:VID_TOC_15 ;
+  skos:definition
+	"La nature juridique des actes 
+est déterminée par le type des droits et des obligations que la volonté de leurs auteurs fait naître, modifier, renouveler, confirmer ou éteindre."@fr;
+  skos:scopeNote "This concept is an extension of VID 6-12 and legal acts. The narrower concepts do not have to correspond to written acts and specific diplomatic forms as described with VID 385-420."@en;
+   skos:inScheme vid:VID . 
  skos:narrower vid:VID_425;
  skos:narrower vid:VID_428;
  skos:narrower vid:VID_430;
@@ -760,7 +768,7 @@ vid:VID rdf:type skos:ConceptScheme;
 	skos:hasTopConcept vid:VID_TOC_1;
 	skos:hasTopConcept vid:VID_TOC_20;
 	skos:hasTopConcept vid:VID_TOC_16;
-	skos:hasTopConcept vid:VID_TOC_15;
+	skos:hasTopConcept vid:VID_424;
 	skos:hasTopConcept vid:VID_TOC_13;
 	skos:hasTopConcept vid:VID_TOC_8;
 	skos:hasTopConcept vid:VID_TOC_3;
@@ -8905,15 +8913,6 @@ vid:VID_423a-2 rdf:type skos:Concept;
 	" - letters de cursu, expédiées par la chancellerie à la requête d'un sujet sur paiement d'un droit fixe, normalement pour mettre à effet un acte administratif ou juridique"@fr;
    skos:inScheme vid:VID . 
 
-vid:VID_424 rdf:type skos:Concept; 
-  skos:altLabel "Rechtsnatur der Urkunden"@de; 
-  skos:altLabel "naturaleza jurídica de los documentos"@es; 
-  skos:prefLabel "nature juridique des actes"@fr; 
-   skos:definition
-	"La nature juridique des actes 
-est déterminée par le type des droits et des obligations que la volonté de leurs auteurs fait naître, modifier, renouveler, confirmer ou éteindre."@fr;
-   skos:inScheme vid:VID . 
-
 vid:VID_425 rdf:type skos:Concept; 
   skos:altLabel "Schenkung"@de; 
   skos:altLabel "gift (of lands, of rights...)"@en; 
@@ -13360,6 +13359,22 @@ vid:VID_add_24 a skos:Concept ;
   skos:prefLabel "Διά τοῡ clause"@en ;
   skos:definition "phrase probably indicating the intervener/petitioner"@en ;
   skos:broader vid:VID_TOC_7 ;
+  skos:inScheme vid:VID .
+vid:VID_add_25 a skos:Concept ;
+  skos:prefLabel "judgement"@en ;
+  skos:preflabel "sentence"@en ;
+  skos:prefLabel "Urteil"@de ;
+  skos:prefLabel "Richterspruch"@de ;
+  skos:definition "an official decision solving a legal dispute, given by the actor such as defined in the charter text."@en ;
+  skos:broader vid:VID_424 ;
+  skos:inScheme vid:VID .
+vid:VID_add_25 a skos:Concept ;
+  skos:prefLabel "Fürstenurkunde"@de ;
+  skos:prefLabel "charter of a territorial prince"@en ;
+  skos:prefLabel "acte émané d'un prince territorial"@fr ;
+  skos:definition "Territorial princes, in particular in the Holy Roman Empire, achieved the status to issue charters of public credibility although the formallyoften used forms from private charters."@en ;
+  skos:scopeNote "In the German scholarly tradition these charters are considered 'Privaturkunden', as they are not issued by the pope or the souvereign."@en ;
+  skos:broader vid:VID_8a, vid:VID_8b .
   skos:inScheme vid:VID .
 #
 # Pertinenz (als Teil der Dispositio, im Sinne Auflisten der geschenkten/bestätigten Besitzungen; es gibt nur „Pertinenzformel“ – 204)
