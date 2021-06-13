@@ -13230,6 +13230,8 @@ vid:VID_add_4 rdf:type skos:Concept ;
 vid:VID_add_5 rdf:type skos:Concept ;
 	skos:prefLabel "Deperditum"@la ;
 	skos:related vid:VID_88 ;
+	skos:related vid:VID_add_27 ;
+	skos:broader vid:VID_3 , vid:VID_TOC_13 ;
 	skos:definition "A document not existing anymore in any kind of tradition, but mentioned or clearly referenced in other acts or written sources, from which we can conclude their former existence."@en ;
 	skos:inScheme vid:VID .
 vid:VID_add_6 rdf:type skos:Concept ;
@@ -13368,7 +13370,7 @@ vid:VID_add_25 a skos:Concept ;
   skos:definition "an official decision solving a legal dispute, given by the actor such as defined in the charter text."@en ;
   skos:broader vid:VID_424 ;
   skos:inScheme vid:VID .
-vid:VID_add_25 a skos:Concept ;
+vid:VID_add_26 a skos:Concept ;
   skos:prefLabel "Fürstenurkunde"@de ;
   skos:prefLabel "charter of a territorial prince"@en ;
   skos:prefLabel "acte émané d'un prince territorial"@fr ;
@@ -13376,6 +13378,15 @@ vid:VID_add_25 a skos:Concept ;
   skos:scopeNote "In the German scholarly tradition these charters are considered 'Privaturkunden', as they are not issued by the pope or the souvereign."@en ;
   skos:broader vid:VID_8a, vid:VID_8b .
   skos:inScheme vid:VID .
+vid:VID_add_27 rdf:type skos:Concpet ;
+	skos:prefLabel "lost"@en ;
+	skos:prefLabel "verloren"@de ;
+	skos:prefLabel "perdu"@fr ;
+	skos:related vid:VID_5 ;
+	skos:broader vid:VID_TOC_13 ;
+	skos:definition "Any object relevant to diplomatics research, that is expected but not existant is 'lost'."@en;
+	skos:inScheme vid:VID .
+
 #
 # Pertinenz (als Teil der Dispositio, im Sinne Auflisten der geschenkten/bestätigten Besitzungen; es gibt nur „Pertinenzformel“ – 204)
 #Grenzen von Besitzunge
