@@ -61,7 +61,7 @@ vid:VID_424 rdf:type skos:Concept;
   skos:definition
 	"La nature juridique des actes 
 est déterminée par le type des droits et des obligations que la volonté de leurs auteurs fait naître, modifier, renouveler, confirmer ou éteindre."@fr;
-  skos:scopeNote "This concept is an extension of VID 6-12 and legal acts. The narrower concepts do not have to correspond to written acts and specific diplomatic forms as described with VID 385-420."@en;
+  skos:scopeNote "This concept is an extension of VID 6-12 and refers to legal acts (VID 6). The narrower concepts do not have to correspond to written acts and specific diplomatic forms as described with VID 385-420."@en;
    skos:inScheme vid:VID . 
  skos:narrower vid:VID_425;
  skos:narrower vid:VID_428;
@@ -13374,7 +13374,7 @@ vid:VID_add_26 a skos:Concept ;
   skos:prefLabel "Fürstenurkunde"@de ;
   skos:prefLabel "charter of a territorial prince"@en ;
   skos:prefLabel "acte émané d'un prince territorial"@fr ;
-  skos:definition "Territorial princes, in particular in the Holy Roman Empire, achieved the status to issue charters of public credibility although the formallyoften used forms from private charters."@en ;
+  skos:definition "Territorial princes, in particular in the Holy Roman Empire, achieved the status to issue charters of public credibility."@en ;
   skos:scopeNote "In the German scholarly tradition these charters are considered 'Privaturkunden', as they are not issued by the pope or the souvereign."@en ;
   skos:broader vid:VID_8a, vid:VID_8b .
   skos:inScheme vid:VID .
