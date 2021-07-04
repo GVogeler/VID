@@ -2677,6 +2677,7 @@ vid:VID_110 rdf:type skos:Concept;
   skos:altLabel "autenticità storica"@it; 
    skos:definition
 	"Un acte sincère (ou diplomatiquement authentique) peut ne pas offrir d'authenticité historique (=véracité), notamment s'il présente des faits une version non conforme à la réalité."@fr;
+   skos:scopeNote "The historical credibility of the information given by a document is independent from the diplomatic authenticity. This has the consequence that a credible but informal copy falls within the scope of VID 110 and VID 55"@en ;
    skos:inScheme vid:VID . 
 
 vid:VID_111 rdf:type skos:Concept; 
