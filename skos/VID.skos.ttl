@@ -2677,6 +2677,7 @@ vid:VID_110 rdf:type skos:Concept;
   skos:altLabel "autenticità storica"@it; 
    skos:definition
 	"Un acte sincère (ou diplomatiquement authentique) peut ne pas offrir d'authenticité historique (=véracité), notamment s'il présente des faits une version non conforme à la réalité."@fr;
+   skos:scopeNote "The historical credibility of the information given by a document is independent from the diplomatic authenticity. This has the consequence that a credible but informal copy falls within the scope of VID 110 and VID 55"@en ;
    skos:inScheme vid:VID . 
 
 vid:VID_111 rdf:type skos:Concept; 
@@ -13341,7 +13342,7 @@ vid:VID_add_21 a skos:Concept ;
   skos:prefLabel "Sprache"@de ;
   skos:prefLabel "language"@en ;
   skos:definition "indicates the language of the witness in question, which also may not be the language of the (preserved or not preserved) original"@en ;
-  skos:broader vid:VID_192 ;
+  skos:broader vid:VID_162 ;
   skos:inScheme vid:VID .
 vid:VID_add_22 a skos:Concept ;
   skos:prefLabel "script"@en ;
@@ -13378,13 +13379,18 @@ vid:VID_add_26 a skos:Concept ;
   skos:scopeNote "In the German scholarly tradition these charters are considered 'Privaturkunden', as they are not issued by the pope or the souvereign."@en ;
   skos:broader vid:VID_8a, vid:VID_8b .
   skos:inScheme vid:VID .
-vid:VID_add_27 rdf:type skos:Concpet ;
+vid:VID_add_27 rdf:type skos:Concept ;
 	skos:prefLabel "lost"@en ;
 	skos:prefLabel "verloren"@de ;
 	skos:prefLabel "perdu"@fr ;
 	skos:related vid:VID_5 ;
 	skos:broader vid:VID_TOC_13 ;
 	skos:definition "Any object relevant to diplomatics research, that is expected but not existant is 'lost'."@en;
+	skos:inScheme vid:VID .
+vid:VID_add_28 rdf:type skos:Concept ;
+	skos:prefLabel "Kurzarenga"@de ;
+	skos:definition "an arenga integrated into the dispositio." ;
+	skos:broader vid:VID_196bis ;
 	skos:inScheme vid:VID .
 
 #
