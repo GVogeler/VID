@@ -995,7 +995,9 @@ vid:VID_9 rdf:type skos:Concept;
   skos:altLabel "documento auténtico;"@es; 
   skos:prefLabel "acte authentique"@fr; 
   skos:altLabel "documento autentico"@it; 
-   skos:definition
+  skos:altLabel "acte sincère"@fr; 
+  skos:altLabel "acte diplomatiquement authentique"@fr; 
+  skos:definition
 	"Un acte authentique
 est un acte établi dans les formes requises et pourvu des marques de validation nécessaires pour donner pleine foi au contenu."@fr;
    skos:inScheme vid:VID;
@@ -2670,8 +2672,6 @@ s'il est établi dans les formes requises et avec les marques de validation néc
 vid:VID_110 rdf:type skos:Concept; 
   skos:altLabel "historische Glaubwürdigkeit"@de; 
   skos:altLabel "autencididad histórica"@es; 
-  skos:prefLabel "acte sincère"@fr; 
-  skos:prefLabel "diplomatiquement authentique"@fr; 
   skos:prefLabel "authenticité historique"@fr; 
   skos:prefLabel "véracité"@fr; 
   skos:altLabel "autenticità storica"@it; 
