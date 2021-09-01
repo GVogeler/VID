@@ -2678,7 +2678,7 @@ vid:VID_110 rdf:type skos:Concept;
    skos:definition "Un acte qui présente des faits conforme à la réalité offre d'authenticité historique (=véracité)."@fr ;
    skos:scopeNote
 	"Un acte sincère (ou diplomatiquement authentique) peut ne pas offrir d'authenticité historique (=véracité), notamment s'il présente des faits une version non conforme à la réalité."@fr;
-   skos:scopeNote "The historical credibility of the information given by a document is independent from the diplomatic authenticity. This has the consequence that a credible but informal copy falls within the scope of VID 110 and VID 55"@en ;
+   skos:scopeNote "The historical credibility of the information given by a document is independent from the diplomatic authenticity. This has the consequence that a credible but informal copy falls within the scope of VID 110 and VID 53"@en ;
    skos:inScheme vid:VID . 
 
 vid:VID_111 rdf:type skos:Concept; 
