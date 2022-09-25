@@ -1,13 +1,13 @@
-	@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-	@prefix vid: <http://www.cei.lmu.de/VID/#> .
-	@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-	@prefix dc: <http://purl.org/dc/elements/1.1/#> .
-	@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vid: <http://www.cei.lmu.de/VID/#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 vid:VID dc:title "Vocabulaire Internationale de Diplomatique" ;
 	dc:creator "Commission Internationale de Diplomatique" ;
 	dc:identifier <http://gams.uni-graz.at/o:vid.1.1> ;
-	skos:hasTopConcept vi:VID_0 ;
+	skos:hasTopConcept vid:VID_0 ;
 	a skos:ConceptScheme ;
 	<http://purl.org/dc/terms/isVersionOf> <http://gams.uni-graz.at/o:vid> ;
 	dc:description "online version of the Vocabulaire international de la diplomatique, ed. Maria Milagros Carcel Orti, 2. ed., Valencia 1997 (Colleccio Oberta); version 1.1 with additions and some revisions as described by Vojosevic, Zarko, and Georg Vogeler: Encoding Charters in preparation for a Diplomatics Semantic Web. Combining the TEI with the Vocabulaire International de Diplomatique, forthcoming." .
