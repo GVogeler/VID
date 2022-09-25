@@ -6,10 +6,12 @@
 
 vid:VID dc:title "Vocabulaire Internationale de Diplomatique" ;
 	dc:creator "Commission Internationale de Diplomatique" ;
-	dc:identifier <http://gams.uni-graz.at/o:vid> ;
+	dc:identifier <http://gams.uni-graz.at/o:vid.1.1> ;
 	skos:hasTopConcept vi:VID_0 ;
 	a skos:ConceptScheme ;
-	dc:description "online version of the Vocabulaire international de la diplomatique, ed. Maria Milagros Carcel Orti, 2. ed., Valencia 1997 (Colleccio Oberta)" .
+	<http://purl.org/dc/terms/isVersionOf> <http://gams.uni-graz.at/o:vid> ;
+	dc:description "online version of the Vocabulaire international de la diplomatique, ed. Maria Milagros Carcel Orti, 2. ed., Valencia 1997 (Colleccio Oberta); version 1.1 with additions and some revisions as described by Vojosevic, Zarko, and Georg Vogeler: Encoding Charters in preparation for a Diplomatics Semantic Web. Combining the TEI with the Vocabulaire International de Diplomatique, forthcoming." .
+	
 
 vid:VID_TOC_1 rdf:type skos:Concept; 
  skos:prefLabel "Notions génerales"@fr; 
