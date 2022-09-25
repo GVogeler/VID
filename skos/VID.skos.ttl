@@ -64,7 +64,7 @@ vid:VID_424 rdf:type skos:Concept;
 	"La nature juridique des actes 
 est déterminée par le type des droits et des obligations que la volonté de leurs auteurs fait naître, modifier, renouveler, confirmer ou éteindre."@fr;
   skos:scopeNote "This concept is an extension of VID 6-12 and refers to legal acts (VID 6). The narrower concepts do not have to correspond to written acts and specific diplomatic forms as described with VID 385-420."@en;
-   skos:inScheme vid:VID . 
+   skos:inScheme vid:VID ; 
  skos:narrower vid:VID_425;
  skos:narrower vid:VID_428;
  skos:narrower vid:VID_430;
@@ -13270,7 +13270,7 @@ vid:VID_add_11 a skos:Concept ;
 	skos:prefLabel "Logos formula"@en ;
 	skos:prefLabel "Logos-Formel"@de ;
 	skos:broader vid:VID_183 , vid:VID_258 ;
-	skos:definition "The art of validation/recognition mostly of solemnly donation charters, consisting normally of the three times on different places in the document repeated „ΛΟΓΟΣ“ ('word')."@en
+	skos:definition "The art of validation/recognition mostly of solemnly donation charters, consisting normally of the three times on different places in the document repeated „ΛΟΓΟΣ“ ('word')."@en ;
 	skos:inScheme vid:VID .
 vid:VID_add_12 a skos:Concept ;
 	skos:prefLabel "Red inked (or special coloured) letters and signs"@en ;
@@ -13314,7 +13314,7 @@ vid:VID_add_17 a skos:Concept ;
   skos:prefLabel "confirmation"@fr; 
   skos:altLabel "conferma"@it; 
   skos:altLabel "confirmatio"@la;
-  skos:definition "Une confirmation (lat.: confirmatio) est une décision par laquelle sont renouvelées des mesures qui ont été précédemment consignées dans des actes antérieurs."@fr
+  skos:definition "Une confirmation (lat.: confirmatio) est une décision par laquelle sont renouvelées des mesures qui ont été précédemment consignées dans des actes antérieurs."@fr ;
   skos:related vid:VID_51 , vid:VID_7c ;
   skos:broader vid:VID_424 ;
   skos:inScheme vid:VID .
@@ -13329,8 +13329,8 @@ vid:VID_add_18 a skos:Concept ;
 vid:VID_add_19 a skos:Concept ;
   skos:prefLabel "Grenzbeschreibung"@de ;
   skos:prefLabel "description de frontière"@fr;
-  skos:prefLabel "description of borderds"en ;
-  skos:prefLabel "descrizione del confinde"it ;
+  skos:prefLabel "description of borderds"@en ;
+  skos:prefLabel "descrizione del confinde"@it ;
   skos:definition "specifying topographic data in order to define the area of the estates in question"@en ;
   skos:broader vid:VID_198 ;
   skos:inScheme vid:VID .
@@ -13353,7 +13353,7 @@ vid:VID_add_22 a skos:Concept ;
   skos:prefLabel "Schrift"@en ;
   skos:definition "gives the general identification of the script (e.g. Latin, Greek, Cyrillic)"@en;
   skos:broader vid:VID_132 ;
-  skos:narrower vid:VID_159 ;ß
+  skos:narrower vid:VID_159 ;
   skos:inScheme vid:VID .
 vid:VID_add_23 a skos:Concept ;
   skos:prefLabel "Schriftstil"@de ;
@@ -13400,5 +13400,5 @@ vid:VID_add_28 rdf:type skos:Concept ;
 # Pertinenz (als Teil der Dispositio, im Sinne Auflisten der geschenkten/bestätigten Besitzungen; es gibt nur „Pertinenzformel“ – 204)
 #Grenzen von Besitzunge
 #vid:VID_add_21 a skos:Concept ;
-#  skos:prefLabel "credible copy"@en
+#  skos:prefLabel "credible copy"@en ;
 #  skos:inScheme vid:VID .
